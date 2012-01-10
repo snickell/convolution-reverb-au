@@ -1,0 +1,4 @@
+This is generated using:
+bcp --boost=../boost_1_39_0_bcp_build --scan Convolver/*cpp *cpp Convolver/*h *h Convolver/boost-bcped
+
+From the main directory.
