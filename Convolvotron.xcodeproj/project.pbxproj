@@ -1,0 +1,1726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D066A82134A613900740800 /* boost in Resources */ = {isa = PBXBuildFile; fileRef = 5D066A81134A613900740800 /* boost */; };
+		5D0805500FD11C9F001F5D0C /* bighall_ir.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D08054F0FD11C9F001F5D0C /* bighall_ir.wav */; };
+		5D2B7FA6102C26670065EA38 /* ConvolverFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7F9E102C26670065EA38 /* ConvolverFFT.cpp */; };
+		5D2B7FA7102C26670065EA38 /* ConvolverFFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7F9F102C26670065EA38 /* ConvolverFFT.h */; };
+		5D2B7FA8102C26670065EA38 /* ConvolverFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA0102C26670065EA38 /* ConvolverFilter.cpp */; };
+		5D2B7FA9102C26670065EA38 /* ConvolverFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA1102C26670065EA38 /* ConvolverFilter.h */; };
+		5D2B7FAA102C26670065EA38 /* ConvolverSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA2102C26670065EA38 /* ConvolverSignal.cpp */; };
+		5D2B7FAB102C26670065EA38 /* ConvolverSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA3102C26670065EA38 /* ConvolverSignal.h */; };
+		5D2B7FAC102C26670065EA38 /* ConvolverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA4102C26670065EA38 /* ConvolverState.cpp */; };
+		5D2B7FAD102C26670065EA38 /* ConvolverState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA5102C26670065EA38 /* ConvolverState.h */; };
+		5D2B7FAE102C26670065EA38 /* ConvolverFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7F9E102C26670065EA38 /* ConvolverFFT.cpp */; };
+		5D2B7FAF102C26670065EA38 /* ConvolverFFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7F9F102C26670065EA38 /* ConvolverFFT.h */; };
+		5D2B7FB0102C26670065EA38 /* ConvolverFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA0102C26670065EA38 /* ConvolverFilter.cpp */; };
+		5D2B7FB1102C26670065EA38 /* ConvolverFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA1102C26670065EA38 /* ConvolverFilter.h */; };
+		5D2B7FB2102C26670065EA38 /* ConvolverSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA2102C26670065EA38 /* ConvolverSignal.cpp */; };
+		5D2B7FB3102C26670065EA38 /* ConvolverSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA3102C26670065EA38 /* ConvolverSignal.h */; };
+		5D2B7FB4102C26670065EA38 /* ConvolverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA4102C26670065EA38 /* ConvolverState.cpp */; };
+		5D2B7FB5102C26670065EA38 /* ConvolverState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA5102C26670065EA38 /* ConvolverState.h */; };
+		5D2B8197102CEA2F0065EA38 /* ConvolverKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8195102CEA2F0065EA38 /* ConvolverKernel.cpp */; };
+		5D2B8198102CEA2F0065EA38 /* ConvolverKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B8196102CEA2F0065EA38 /* ConvolverKernel.h */; };
+		5D2B8199102CEA2F0065EA38 /* ConvolverKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8195102CEA2F0065EA38 /* ConvolverKernel.cpp */; };
+		5D2B819A102CEA2F0065EA38 /* ConvolverKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B8196102CEA2F0065EA38 /* ConvolverKernel.h */; };
+		5D2B81E0102CF2230065EA38 /* ConvolverTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B81DE102CF2230065EA38 /* ConvolverTypes.h */; };
+		5D2B81E1102CF2230065EA38 /* ConvolverTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B81DF102CF2230065EA38 /* ConvolverTypes.cpp */; };
+		5D2B81E2102CF2230065EA38 /* ConvolverTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B81DE102CF2230065EA38 /* ConvolverTypes.h */; };
+		5D2B81E3102CF2230065EA38 /* ConvolverTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B81DF102CF2230065EA38 /* ConvolverTypes.cpp */; };
+		5D2B8287102CF7050065EA38 /* AUConvolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B8285102CF7050065EA38 /* AUConvolver.h */; };
+		5D2B8288102CF7050065EA38 /* AUConvolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8286102CF7050065EA38 /* AUConvolver.cpp */; };
+		5D42F5121346849B00CE7932 /* Convolution.r in Rez */ = {isa = PBXBuildFile; fileRef = 8BA05A680720730100365D66 /* Convolution.r */; };
+		5D431B0F1027AEE800316C11 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D431B0E1027AEE800316C11 /* Carbon.framework */; };
+		5D431EC11028DEE600316C11 /* DebugSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D431EC01028DEE600316C11 /* DebugSettings.h */; };
+		5D431EC21028DEE600316C11 /* DebugSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D431EC01028DEE600316C11 /* DebugSettings.h */; };
+		5D431EC31028DEE600316C11 /* DebugSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D431EC01028DEE600316C11 /* DebugSettings.h */; };
+		5D695E9A10099E78004BF312 /* FilterLab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695E9610099E78004BF312 /* FilterLab.cpp */; };
+		5D695E9B10099E78004BF312 /* FilterLab.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695E9710099E78004BF312 /* FilterLab.h */; };
+		5D695E9C10099E78004BF312 /* SSEConvolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695E9810099E78004BF312 /* SSEConvolution.cpp */; };
+		5D695E9D10099E78004BF312 /* SSEConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695E9910099E78004BF312 /* SSEConvolution.h */; };
+		5D695EA710099F05004BF312 /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D695EA510099F05004BF312 /* kiss_fftr.c */; };
+		5D695EA810099F05004BF312 /* kiss_fftr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695EA610099F05004BF312 /* kiss_fftr.h */; };
+		5D695EBA10099FD3004BF312 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695EB910099FD3004BF312 /* main.cpp */; };
+		5D695EBB1009A01E004BF312 /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D695EA510099F05004BF312 /* kiss_fftr.c */; };
+		5D695EBC1009A01E004BF312 /* kiss_fftr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695EA610099F05004BF312 /* kiss_fftr.h */; };
+		5D695EBD1009A01E004BF312 /* _kiss_fft_guts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50AFF0FCDD82300E9462B /* _kiss_fft_guts.h */; };
+		5D695EBE1009A01E004BF312 /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DC50B000FCDD82300E9462B /* kiss_fft.c */; };
+		5D695EBF1009A01E004BF312 /* kiss_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50B010FCDD82300E9462B /* kiss_fft.h */; };
+		5D695EC01009A01E004BF312 /* Convolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50AE40FCDD71200E9462B /* Convolver.h */; };
+		5D695EC11009A01E004BF312 /* Convolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DC50AE50FCDD71200E9462B /* Convolver.cpp */; };
+		5D695EC21009A01E004BF312 /* FilterLab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695E9610099E78004BF312 /* FilterLab.cpp */; };
+		5D695EC31009A01E004BF312 /* FilterLab.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695E9710099E78004BF312 /* FilterLab.h */; };
+		5D695EC41009A01E004BF312 /* SSEConvolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695E9810099E78004BF312 /* SSEConvolution.cpp */; };
+		5D695EC51009A01E004BF312 /* SSEConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695E9910099E78004BF312 /* SSEConvolution.h */; };
+		5D695F8B1009B09C004BF312 /* ConvolvotronProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695F8A1009B09C004BF312 /* ConvolvotronProperties.h */; };
+		5D695F8C1009B09C004BF312 /* ConvolvotronProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695F8A1009B09C004BF312 /* ConvolvotronProperties.h */; };
+		5D8B5DE31038C1C800C9C090 /* LockFreeQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8B5DE21038C1C800C9C090 /* LockFreeQueue.h */; };
+		5D8B5DE41038C1C800C9C090 /* LockFreeQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8B5DE21038C1C800C9C090 /* LockFreeQueue.h */; };
+		5D8B60E410391FBD00C9C090 /* ConvolverStateTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8B60E310391FBD00C9C090 /* ConvolverStateTypes.h */; };
+		5D8B60E510391FBD00C9C090 /* ConvolverStateTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8B60E310391FBD00C9C090 /* ConvolverStateTypes.h */; };
+		5D9ED5EF0FDB1A5300689782 /* pinknoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D9ED5ED0FDB1A5300689782 /* pinknoise.wav */; };
+		5D9ED5F00FDB1A5300689782 /* whitenoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D9ED5EE0FDB1A5300689782 /* whitenoise.wav */; };
+		5DB1FD0E134440E900D4EE9F /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC5F134440E800D4EE9F /* AUBase.cpp */; };
+		5DB1FD0F134440E900D4EE9F /* AUBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC60134440E800D4EE9F /* AUBase.h */; };
+		5DB1FD10134440E900D4EE9F /* AUDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC61134440E800D4EE9F /* AUDispatch.cpp */; };
+		5DB1FD11134440E900D4EE9F /* AUDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC62134440E800D4EE9F /* AUDispatch.h */; };
+		5DB1FD12134440E900D4EE9F /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC63134440E800D4EE9F /* AUInputElement.cpp */; };
+		5DB1FD13134440E900D4EE9F /* AUInputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC64134440E800D4EE9F /* AUInputElement.h */; };
+		5DB1FD14134440E900D4EE9F /* AUOutputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC65134440E800D4EE9F /* AUOutputElement.cpp */; };
+		5DB1FD15134440E900D4EE9F /* AUOutputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC66134440E800D4EE9F /* AUOutputElement.h */; };
+		5DB1FD17134440E900D4EE9F /* AUScopeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC68134440E800D4EE9F /* AUScopeElement.cpp */; };
+		5DB1FD18134440E900D4EE9F /* AUScopeElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC69134440E800D4EE9F /* AUScopeElement.h */; };
+		5DB1FD19134440E900D4EE9F /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC6A134440E800D4EE9F /* ComponentBase.cpp */; };
+		5DB1FD1A134440E900D4EE9F /* ComponentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC6B134440E800D4EE9F /* ComponentBase.h */; };
+		5DB1FD2E134440E900D4EE9F /* AUViewLocalizedStringKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC82134440E800D4EE9F /* AUViewLocalizedStringKeys.h */; };
+		5DB1FD2F134440E900D4EE9F /* AUEffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC84134440E800D4EE9F /* AUEffectBase.cpp */; };
+		5DB1FD30134440E900D4EE9F /* AUEffectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC85134440E800D4EE9F /* AUEffectBase.h */; };
+		5DB1FD3B134440E900D4EE9F /* AUBaseHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC91134440E900D4EE9F /* AUBaseHelper.cpp */; };
+		5DB1FD3C134440E900D4EE9F /* AUBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC92134440E900D4EE9F /* AUBaseHelper.h */; };
+		5DB1FD3D134440E900D4EE9F /* AUBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC93134440E900D4EE9F /* AUBuffer.cpp */; };
+		5DB1FD3E134440E900D4EE9F /* AUBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC94134440E900D4EE9F /* AUBuffer.h */; };
+		5DB1FD3F134440E900D4EE9F /* AUDebugDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC95134440E900D4EE9F /* AUDebugDispatcher.cpp */; };
+		5DB1FD40134440E900D4EE9F /* AUDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC96134440E900D4EE9F /* AUDebugDispatcher.h */; };
+		5DB1FD41134440E900D4EE9F /* AUInputFormatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC97134440E900D4EE9F /* AUInputFormatConverter.h */; };
+		5DB1FD42134440E900D4EE9F /* AUSilentTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC98134440E900D4EE9F /* AUSilentTimeout.h */; };
+		5DB1FD43134440E900D4EE9F /* AUTimestampGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC99134440E900D4EE9F /* AUTimestampGenerator.cpp */; };
+		5DB1FD44134440E900D4EE9F /* AUTimestampGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC9A134440E900D4EE9F /* AUTimestampGenerator.h */; };
+		5DB1FD45134440E900D4EE9F /* AUOutputBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC9C134440E900D4EE9F /* AUOutputBL.cpp */; };
+		5DB1FD46134440E900D4EE9F /* AUOutputBL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC9D134440E900D4EE9F /* AUOutputBL.h */; };
+		5DB1FD47134440E900D4EE9F /* AUParamInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FC9E134440E900D4EE9F /* AUParamInfo.cpp */; };
+		5DB1FD48134440E900D4EE9F /* AUParamInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FC9F134440E900D4EE9F /* AUParamInfo.h */; };
+		5DB1FD49134440E900D4EE9F /* CAAtomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCA0134440E900D4EE9F /* CAAtomic.h */; };
+		5DB1FD4A134440E900D4EE9F /* CAAtomicStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCA1134440E900D4EE9F /* CAAtomicStack.h */; };
+		5DB1FD4B134440E900D4EE9F /* CAAudioBufferList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCA2134440E900D4EE9F /* CAAudioBufferList.cpp */; };
+		5DB1FD4C134440E900D4EE9F /* CAAudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCA3134440E900D4EE9F /* CAAudioBufferList.h */; };
+		5DB1FD4D134440E900D4EE9F /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCA4134440E900D4EE9F /* CAAudioChannelLayout.cpp */; };
+		5DB1FD4E134440E900D4EE9F /* CAAudioChannelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCA5134440E900D4EE9F /* CAAudioChannelLayout.h */; };
+		5DB1FD4F134440E900D4EE9F /* CAAudioChannelLayoutObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCA6134440E900D4EE9F /* CAAudioChannelLayoutObject.cpp */; };
+		5DB1FD50134440E900D4EE9F /* CAAudioFileFormats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCA7134440E900D4EE9F /* CAAudioFileFormats.cpp */; };
+		5DB1FD51134440E900D4EE9F /* CAAudioFileFormats.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCA8134440E900D4EE9F /* CAAudioFileFormats.h */; };
+		5DB1FD52134440E900D4EE9F /* CAAudioTimeStamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCA9134440E900D4EE9F /* CAAudioTimeStamp.cpp */; };
+		5DB1FD53134440E900D4EE9F /* CAAudioTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCAA134440E900D4EE9F /* CAAudioTimeStamp.h */; };
+		5DB1FD54134440E900D4EE9F /* CAAudioUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCAB134440E900D4EE9F /* CAAudioUnit.cpp */; };
+		5DB1FD55134440E900D4EE9F /* CAAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCAC134440E900D4EE9F /* CAAudioUnit.h */; };
+		5DB1FD56134440E900D4EE9F /* CAAudioUnitOutputCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCAD134440E900D4EE9F /* CAAudioUnitOutputCapturer.h */; };
+		5DB1FD57134440E900D4EE9F /* CAAudioValueRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCAE134440E900D4EE9F /* CAAudioValueRange.cpp */; };
+		5DB1FD58134440E900D4EE9F /* CAAudioValueRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCAF134440E900D4EE9F /* CAAudioValueRange.h */; };
+		5DB1FD59134440E900D4EE9F /* CAAUMIDIMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCB0134440E900D4EE9F /* CAAUMIDIMap.cpp */; };
+		5DB1FD5A134440E900D4EE9F /* CAAUMIDIMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCB1134440E900D4EE9F /* CAAUMIDIMap.h */; };
+		5DB1FD5B134440E900D4EE9F /* CAAUMIDIMapManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCB2134440E900D4EE9F /* CAAUMIDIMapManager.cpp */; };
+		5DB1FD5C134440E900D4EE9F /* CAAUMIDIMapManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCB3134440E900D4EE9F /* CAAUMIDIMapManager.h */; };
+		5DB1FD5D134440E900D4EE9F /* CAAUParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCB4134440E900D4EE9F /* CAAUParameter.cpp */; };
+		5DB1FD5E134440E900D4EE9F /* CAAUParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCB5134440E900D4EE9F /* CAAUParameter.h */; };
+		5DB1FD5F134440E900D4EE9F /* CAAutoDisposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCB6134440E900D4EE9F /* CAAutoDisposer.h */; };
+		5DB1FD60134440E900D4EE9F /* CABitOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCB7134440E900D4EE9F /* CABitOperations.h */; };
+		5DB1FD61134440E900D4EE9F /* CABool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCB8134440E900D4EE9F /* CABool.h */; };
+		5DB1FD62134440E900D4EE9F /* CABufferList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCB9134440E900D4EE9F /* CABufferList.cpp */; };
+		5DB1FD63134440E900D4EE9F /* CABufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCBA134440E900D4EE9F /* CABufferList.h */; };
+		5DB1FD66134440E900D4EE9F /* CAByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCBD134440E900D4EE9F /* CAByteOrder.h */; };
+		5DB1FD67134440E900D4EE9F /* CACFArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCBE134440E900D4EE9F /* CACFArray.cpp */; };
+		5DB1FD68134440E900D4EE9F /* CACFArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCBF134440E900D4EE9F /* CACFArray.h */; };
+		5DB1FD69134440E900D4EE9F /* CACFData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCC0134440E900D4EE9F /* CACFData.h */; };
+		5DB1FD6A134440E900D4EE9F /* CACFDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCC1134440E900D4EE9F /* CACFDictionary.cpp */; };
+		5DB1FD6B134440E900D4EE9F /* CACFDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCC2134440E900D4EE9F /* CACFDictionary.h */; };
+		5DB1FD6C134440E900D4EE9F /* CACFDistributedNotification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCC3134440E900D4EE9F /* CACFDistributedNotification.cpp */; };
+		5DB1FD6D134440E900D4EE9F /* CACFDistributedNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCC4134440E900D4EE9F /* CACFDistributedNotification.h */; };
+		5DB1FD6E134440E900D4EE9F /* CACFMachPort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCC5134440E900D4EE9F /* CACFMachPort.cpp */; };
+		5DB1FD6F134440E900D4EE9F /* CACFMachPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCC6134440E900D4EE9F /* CACFMachPort.h */; };
+		5DB1FD70134440E900D4EE9F /* CACFMessagePort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCC7134440E900D4EE9F /* CACFMessagePort.cpp */; };
+		5DB1FD71134440E900D4EE9F /* CACFMessagePort.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCC8134440E900D4EE9F /* CACFMessagePort.h */; };
+		5DB1FD72134440E900D4EE9F /* CACFNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCC9134440E900D4EE9F /* CACFNumber.cpp */; };
+		5DB1FD73134440E900D4EE9F /* CACFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCCA134440E900D4EE9F /* CACFNumber.h */; };
+		5DB1FD74134440E900D4EE9F /* CACFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCCB134440E900D4EE9F /* CACFObject.h */; };
+		5DB1FD75134440E900D4EE9F /* CACFPlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCCC134440E900D4EE9F /* CACFPlugIn.h */; };
+		5DB1FD76134440E900D4EE9F /* CACFPreferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCCD134440E900D4EE9F /* CACFPreferences.cpp */; };
+		5DB1FD77134440E900D4EE9F /* CACFPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCCE134440E900D4EE9F /* CACFPreferences.h */; };
+		5DB1FD78134440E900D4EE9F /* CACFString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCCF134440E900D4EE9F /* CACFString.cpp */; };
+		5DB1FD79134440E900D4EE9F /* CACFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCD0134440E900D4EE9F /* CACFString.h */; };
+		5DB1FD7A134440E900D4EE9F /* CAComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCD1134440E900D4EE9F /* CAComponent.cpp */; };
+		5DB1FD7B134440E900D4EE9F /* CAComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCD2134440E900D4EE9F /* CAComponent.h */; };
+		5DB1FD7C134440E900D4EE9F /* CAComponentDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCD3134440E900D4EE9F /* CAComponentDescription.cpp */; };
+		5DB1FD7D134440E900D4EE9F /* CAComponentDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCD4134440E900D4EE9F /* CAComponentDescription.h */; };
+		5DB1FD7E134440E900D4EE9F /* CADebugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCD5134440E900D4EE9F /* CADebugger.cpp */; };
+		5DB1FD7F134440E900D4EE9F /* CADebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCD6134440E900D4EE9F /* CADebugger.h */; };
+		5DB1FD80134440E900D4EE9F /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCD7134440E900D4EE9F /* CADebugMacros.cpp */; };
+		5DB1FD81134440E900D4EE9F /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCD8134440E900D4EE9F /* CADebugMacros.h */; };
+		5DB1FD82134440E900D4EE9F /* CADebugPrintf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCD9134440E900D4EE9F /* CADebugPrintf.cpp */; };
+		5DB1FD83134440E900D4EE9F /* CADebugPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCDA134440E900D4EE9F /* CADebugPrintf.h */; };
+		5DB1FD84134440E900D4EE9F /* CAException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCDB134440E900D4EE9F /* CAException.h */; };
+		5DB1FD85134440E900D4EE9F /* CAFilePathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCDC134440E900D4EE9F /* CAFilePathUtils.cpp */; };
+		5DB1FD86134440E900D4EE9F /* CAFilePathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCDD134440E900D4EE9F /* CAFilePathUtils.h */; };
+		5DB1FD87134440E900D4EE9F /* CAGuard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCDE134440E900D4EE9F /* CAGuard.cpp */; };
+		5DB1FD88134440E900D4EE9F /* CAGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCDF134440E900D4EE9F /* CAGuard.h */; };
+		5DB1FD91134440E900D4EE9F /* CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCE8134440E900D4EE9F /* CAHostTimeBase.cpp */; };
+		5DB1FD92134440E900D4EE9F /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCE9134440E900D4EE9F /* CAHostTimeBase.h */; };
+		5DB1FD93134440E900D4EE9F /* CALogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCEA134440E900D4EE9F /* CALogMacros.h */; };
+		5DB1FD94134440E900D4EE9F /* CAMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCEB134440E900D4EE9F /* CAMath.h */; };
+		5DB1FD95134440E900D4EE9F /* CAMixMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCEC134440E900D4EE9F /* CAMixMap.h */; };
+		5DB1FD96134440E900D4EE9F /* CAMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCED134440E900D4EE9F /* CAMutex.cpp */; };
+		5DB1FD97134440E900D4EE9F /* CAMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCEE134440E900D4EE9F /* CAMutex.h */; };
+		5DB1FD98134440E900D4EE9F /* CAPersistence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCEF134440E900D4EE9F /* CAPersistence.cpp */; };
+		5DB1FD9B134440E900D4EE9F /* CAPropertyAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCF2134440E900D4EE9F /* CAPropertyAddress.h */; };
+		5DB1FD9C134440E900D4EE9F /* CAPThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCF3134440E900D4EE9F /* CAPThread.cpp */; };
+		5DB1FD9D134440E900D4EE9F /* CAPThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCF4134440E900D4EE9F /* CAPThread.h */; };
+		5DB1FD9E134440E900D4EE9F /* CAReferenceCounted.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCF5134440E900D4EE9F /* CAReferenceCounted.h */; };
+		5DB1FD9F134440E900D4EE9F /* CARingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCF6134440E900D4EE9F /* CARingBuffer.cpp */; };
+		5DB1FDA0134440E900D4EE9F /* CARingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCF7134440E900D4EE9F /* CARingBuffer.h */; };
+		5DB1FDA1134440E900D4EE9F /* CASettingsStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCF8134440E900D4EE9F /* CASettingsStorage.cpp */; };
+		5DB1FDA2134440E900D4EE9F /* CASettingsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCF9134440E900D4EE9F /* CASettingsStorage.h */; };
+		5DB1FDA3134440E900D4EE9F /* CASharedLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCFA134440E900D4EE9F /* CASharedLibrary.cpp */; };
+		5DB1FDA4134440E900D4EE9F /* CASharedLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCFB134440E900D4EE9F /* CASharedLibrary.h */; };
+		5DB1FDA5134440E900D4EE9F /* CASpectralProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCFC134440E900D4EE9F /* CASpectralProcessor.cpp */; };
+		5DB1FDA6134440E900D4EE9F /* CASpectralProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCFD134440E900D4EE9F /* CASpectralProcessor.h */; };
+		5DB1FDA7134440E900D4EE9F /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FCFE134440E900D4EE9F /* CAStreamBasicDescription.cpp */; };
+		5DB1FDA8134440E900D4EE9F /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FCFF134440E900D4EE9F /* CAStreamBasicDescription.h */; };
+		5DB1FDA9134440E900D4EE9F /* CAStreamRangedDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FD00134440E900D4EE9F /* CAStreamRangedDescription.cpp */; };
+		5DB1FDAA134440E900D4EE9F /* CAStreamRangedDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD01134440E900D4EE9F /* CAStreamRangedDescription.h */; };
+		5DB1FDAB134440E900D4EE9F /* CAThreadSafeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD02134440E900D4EE9F /* CAThreadSafeList.h */; };
+		5DB1FDAC134440E900D4EE9F /* CATink.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD03134440E900D4EE9F /* CATink.h */; };
+		5DB1FDAD134440E900D4EE9F /* CATokenMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD04134440E900D4EE9F /* CATokenMap.h */; };
+		5DB1FDAE134440E900D4EE9F /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FD05134440E900D4EE9F /* CAVectorUnit.cpp */; };
+		5DB1FDAF134440E900D4EE9F /* CAVectorUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD06134440E900D4EE9F /* CAVectorUnit.h */; };
+		5DB1FDB0134440E900D4EE9F /* CAVectorUnitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD07134440E900D4EE9F /* CAVectorUnitTypes.h */; };
+		5DB1FDB1134440E900D4EE9F /* CAVolumeCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FD08134440E900D4EE9F /* CAVolumeCurve.cpp */; };
+		5DB1FDB2134440E900D4EE9F /* CAVolumeCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD09134440E900D4EE9F /* CAVolumeCurve.h */; };
+		5DB1FDB3134440E900D4EE9F /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FD0A134440E900D4EE9F /* CAXException.cpp */; };
+		5DB1FDB4134440E900D4EE9F /* CAXException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD0B134440E900D4EE9F /* CAXException.h */; };
+		5DB1FDB5134440E900D4EE9F /* MatrixMixerVolumes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB1FD0C134440E900D4EE9F /* MatrixMixerVolumes.cpp */; };
+		5DB1FDB6134440E900D4EE9F /* MatrixMixerVolumes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1FD0D134440E900D4EE9F /* MatrixMixerVolumes.h */; };
+		5DB5060E1034D237009DF00F /* ConvolverInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB5060D1034D237009DF00F /* ConvolverInternal.h */; };
+		5DB5060F1034D238009DF00F /* ConvolverInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB5060D1034D237009DF00F /* ConvolverInternal.h */; };
+		5DB5087510352AED009DF00F /* kiss_fftr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695EA610099F05004BF312 /* kiss_fftr.h */; };
+		5DB5087610352AED009DF00F /* Convolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50AE40FCDD71200E9462B /* Convolver.h */; };
+		5DB5087710352AED009DF00F /* _kiss_fft_guts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50AFF0FCDD82300E9462B /* _kiss_fft_guts.h */; };
+		5DB5087810352AED009DF00F /* kiss_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50B010FCDD82300E9462B /* kiss_fft.h */; };
+		5DB5087910352AED009DF00F /* FilterLab.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695E9710099E78004BF312 /* FilterLab.h */; };
+		5DB5087A10352AED009DF00F /* SSEConvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695E9910099E78004BF312 /* SSEConvolution.h */; };
+		5DB5087B10352AED009DF00F /* ConvolvotronProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D695F8A1009B09C004BF312 /* ConvolvotronProperties.h */; };
+		5DB5087C10352AED009DF00F /* DebugSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D431EC01028DEE600316C11 /* DebugSettings.h */; };
+		5DB5087D10352AED009DF00F /* ConvolverFFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7F9F102C26670065EA38 /* ConvolverFFT.h */; };
+		5DB5087E10352AED009DF00F /* ConvolverFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA1102C26670065EA38 /* ConvolverFilter.h */; };
+		5DB5087F10352AED009DF00F /* ConvolverSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA3102C26670065EA38 /* ConvolverSignal.h */; };
+		5DB5088010352AED009DF00F /* ConvolverState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B7FA5102C26670065EA38 /* ConvolverState.h */; };
+		5DB5088110352AED009DF00F /* ConvolverKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B8196102CEA2F0065EA38 /* ConvolverKernel.h */; };
+		5DB5088210352AED009DF00F /* ConvolverTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2B81DE102CF2230065EA38 /* ConvolverTypes.h */; };
+		5DB5088310352AED009DF00F /* ConvolverInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB5060D1034D237009DF00F /* ConvolverInternal.h */; };
+		5DB5088510352AED009DF00F /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D695EA510099F05004BF312 /* kiss_fftr.c */; };
+		5DB5088610352AED009DF00F /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DC50B000FCDD82300E9462B /* kiss_fft.c */; };
+		5DB5088710352AED009DF00F /* Convolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DC50AE50FCDD71200E9462B /* Convolver.cpp */; };
+		5DB5088810352AED009DF00F /* FilterLab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695E9610099E78004BF312 /* FilterLab.cpp */; };
+		5DB5088910352AED009DF00F /* SSEConvolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D695E9810099E78004BF312 /* SSEConvolution.cpp */; };
+		5DB5088B10352AED009DF00F /* ConvolverFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7F9E102C26670065EA38 /* ConvolverFFT.cpp */; };
+		5DB5088C10352AED009DF00F /* ConvolverFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA0102C26670065EA38 /* ConvolverFilter.cpp */; };
+		5DB5088D10352AED009DF00F /* ConvolverSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA2102C26670065EA38 /* ConvolverSignal.cpp */; };
+		5DB5088E10352AED009DF00F /* ConvolverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7FA4102C26670065EA38 /* ConvolverState.cpp */; };
+		5DB5088F10352AED009DF00F /* ConvolverKernel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8195102CEA2F0065EA38 /* ConvolverKernel.cpp */; };
+		5DB5089010352AED009DF00F /* ConvolverTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B81DF102CF2230065EA38 /* ConvolverTypes.cpp */; };
+		5DB508A010352B34009DF00F /* TestFrameBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5089F10352B34009DF00F /* TestFrameBuffer.cpp */; };
+		5DB50A5C1035F4B8009DF00F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB50A5B1035F4B8009DF00F /* Accelerate.framework */; };
+		5DB50A5D1035F4B8009DF00F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB50A5B1035F4B8009DF00F /* Accelerate.framework */; };
+		5DB50A731035F632009DF00F /* ConvolverFFTType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB50A721035F632009DF00F /* ConvolverFFTType.h */; };
+		5DB50A741035F632009DF00F /* ConvolverFFTType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB50A721035F632009DF00F /* ConvolverFFTType.h */; };
+		5DBC856910225BEE00888C49 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC85511022585500888C49 /* logo.png */; };
+		5DBC856A10225BEE00888C49 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC85521022585500888C49 /* title.png */; };
+		5DC50AE60FCDD71200E9462B /* Convolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50AE40FCDD71200E9462B /* Convolver.h */; };
+		5DC50C2A0FCDF08400E9462B /* _kiss_fft_guts.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50AFF0FCDD82300E9462B /* _kiss_fft_guts.h */; };
+		5DC50C2B0FCDF08400E9462B /* kiss_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC50B010FCDD82300E9462B /* kiss_fft.h */; };
+		5DC50C2C0FCDF09000E9462B /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DC50B000FCDD82300E9462B /* kiss_fft.c */; };
+		5DC50C2D0FCDF09000E9462B /* Convolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DC50AE50FCDD71200E9462B /* Convolver.cpp */; };
+		5DCDE9150FCD06320093EB8B /* Meatscience_Convolution-Reverb.component in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D01CCD20486CAD60068D4B7 /* Meatscience_Convolution-Reverb.component */; };
+		5DCDE96D0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DCDE96B0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.h */; };
+		5DCDE96E0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE96C0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.m */; };
+		5DCFCC080FCDB8AC00D5FF9A /* ir.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DCFCC070FCDB8AC00D5FF9A /* ir.wav */; };
+		5DFB25B40FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DFB25B20FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.h */; };
+		5DFB25B50FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB25B30FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.m */; };
+		5F94AE7910250DB700C31A76 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC85511022585500888C49 /* logo.png */; };
+		5F94AE7A10250DB700C31A76 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC85521022585500888C49 /* title.png */; };
+		8BA05A6B0720730100365D66 /* Convolvotron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BA05A660720730100365D66 /* Convolvotron.cpp */; };
+		8BA05A6E0720730100365D66 /* ConvolutionVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA05A690720730100365D66 /* ConvolutionVersion.h */; };
+		8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AF9072074E100365D66 /* AudioToolbox.framework */; };
+		8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AFA072074E100365D66 /* AudioUnit.framework */; };
+		8BA05B02072074F900365D66 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05B01072074F900365D66 /* CoreServices.framework */; };
+		8BA4AE54073EB72300A2709A /* MeatscienceConvolvotron_CocoaViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA4ADCE073EB19800A2709A /* MeatscienceConvolvotron_CocoaViewFactory.h */; };
+		8BA4AE55073EB72300A2709A /* MeatscienceConvolvotron_CocoaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA4ADD0073EB19800A2709A /* MeatscienceConvolvotron_CocoaView.h */; };
+		8BA4AE56073EB73300A2709A /* MeatscienceConvolvotron_CocoaViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4ADCF073EB19800A2709A /* MeatscienceConvolvotron_CocoaViewFactory.m */; };
+		8BA4AE57073EB73300A2709A /* MeatscienceConvolvotron_CocoaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4ADD1073EB19800A2709A /* MeatscienceConvolvotron_CocoaView.m */; };
+		8BA4AE58073EB74C00A2709A /* MeatscienceConvolvotron_CocoaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4ADF4073EB43200A2709A /* MeatscienceConvolvotron_CocoaView.xib */; };
+		8BA4AE5C073EB79000A2709A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA4AE5B073EB79000A2709A /* Cocoa.framework */; };
+		8BA4AE5D073EB7C300A2709A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA4AE5B073EB79000A2709A /* Cocoa.framework */; };
+		8BA4AE5E073EB7C500A2709A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AFA072074E100365D66 /* AudioUnit.framework */; };
+		8BA4AE5F073EB7C600A2709A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AF9072074E100365D66 /* AudioToolbox.framework */; };
+		8BA4AE66073EBB2E00A2709A /* MeatscienceConvolvotron_CocoaViewFactory.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BA4AE4E073EB69000A2709A /* MeatscienceConvolvotron_CocoaViewFactory.bundle */; };
+		8BC6025C073B072D006C4272 /* Convolvotron.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC6025B073B072D006C4272 /* Convolvotron.h */; };
+		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7609A450C556A700040AAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA4AE4D073EB69000A2709A;
+			remoteInfo = CocoaUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DCDE8D30FCD057F0093EB8B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Library/Audio/Plug-Ins/Components";
+			dstSubfolderSpec = 0;
+			files = (
+				5DCDE9150FCD06320093EB8B /* Meatscience_Convolution-Reverb.component in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA4AE65073EBB1B00A2709A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				8BA4AE66073EBB2E00A2709A /* MeatscienceConvolvotron_CocoaViewFactory.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D066A81134A613900740800 /* boost */ = {isa = PBXFileReference; lastKnownFileType = folder; name = boost; path = "Convolver/boost-bcped/boost"; sourceTree = "<group>"; };
+		5D08054F0FD11C9F001F5D0C /* bighall_ir.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bighall_ir.wav; sourceTree = "<group>"; };
+		5D2B7F9E102C26670065EA38 /* ConvolverFFT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvolverFFT.cpp; path = Convolver/ConvolverFFT.cpp; sourceTree = "<group>"; };
+		5D2B7F9F102C26670065EA38 /* ConvolverFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverFFT.h; path = Convolver/ConvolverFFT.h; sourceTree = "<group>"; };
+		5D2B7FA0102C26670065EA38 /* ConvolverFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvolverFilter.cpp; path = Convolver/ConvolverFilter.cpp; sourceTree = "<group>"; };
+		5D2B7FA1102C26670065EA38 /* ConvolverFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverFilter.h; path = Convolver/ConvolverFilter.h; sourceTree = "<group>"; };
+		5D2B7FA2102C26670065EA38 /* ConvolverSignal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvolverSignal.cpp; path = Convolver/ConvolverSignal.cpp; sourceTree = "<group>"; };
+		5D2B7FA3102C26670065EA38 /* ConvolverSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverSignal.h; path = Convolver/ConvolverSignal.h; sourceTree = "<group>"; };
+		5D2B7FA4102C26670065EA38 /* ConvolverState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvolverState.cpp; path = Convolver/ConvolverState.cpp; sourceTree = "<group>"; };
+		5D2B7FA5102C26670065EA38 /* ConvolverState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverState.h; path = Convolver/ConvolverState.h; sourceTree = "<group>"; };
+		5D2B8195102CEA2F0065EA38 /* ConvolverKernel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvolverKernel.cpp; path = Convolver/ConvolverKernel.cpp; sourceTree = "<group>"; };
+		5D2B8196102CEA2F0065EA38 /* ConvolverKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverKernel.h; path = Convolver/ConvolverKernel.h; sourceTree = "<group>"; };
+		5D2B81DE102CF2230065EA38 /* ConvolverTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverTypes.h; path = Convolver/ConvolverTypes.h; sourceTree = "<group>"; };
+		5D2B81DF102CF2230065EA38 /* ConvolverTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvolverTypes.cpp; path = Convolver/ConvolverTypes.cpp; sourceTree = "<group>"; };
+		5D2B8285102CF7050065EA38 /* AUConvolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUConvolver.h; sourceTree = "<group>"; };
+		5D2B8286102CF7050065EA38 /* AUConvolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUConvolver.cpp; sourceTree = "<group>"; };
+		5D431B0E1027AEE800316C11 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		5D431EC01028DEE600316C11 /* DebugSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugSettings.h; path = Convolver/DebugSettings.h; sourceTree = "<group>"; };
+		5D695E9610099E78004BF312 /* FilterLab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilterLab.cpp; path = Convolver/FilterLab.cpp; sourceTree = "<group>"; };
+		5D695E9710099E78004BF312 /* FilterLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterLab.h; path = Convolver/FilterLab.h; sourceTree = "<group>"; };
+		5D695E9810099E78004BF312 /* SSEConvolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SSEConvolution.cpp; path = Convolver/SSEConvolution.cpp; sourceTree = "<group>"; };
+		5D695E9910099E78004BF312 /* SSEConvolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSEConvolution.h; path = Convolver/SSEConvolution.h; sourceTree = "<group>"; };
+		5D695EA510099F05004BF312 /* kiss_fftr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kiss_fftr.c; path = Convolver/kiss_fftr.c; sourceTree = "<group>"; };
+		5D695EA610099F05004BF312 /* kiss_fftr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kiss_fftr.h; path = Convolver/kiss_fftr.h; sourceTree = "<group>"; };
+		5D695EB110099F75004BF312 /* Convolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Convolver; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D695EB910099FD3004BF312 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Convolver/main.cpp; sourceTree = "<group>"; };
+		5D695F8A1009B09C004BF312 /* ConvolvotronProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolvotronProperties.h; path = Convolver/ConvolvotronProperties.h; sourceTree = "<group>"; };
+		5D8B5DE21038C1C800C9C090 /* LockFreeQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LockFreeQueue.h; path = Convolver/LockFreeQueue.h; sourceTree = "<group>"; };
+		5D8B60E310391FBD00C9C090 /* ConvolverStateTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverStateTypes.h; path = Convolver/ConvolverStateTypes.h; sourceTree = "<group>"; };
+		5D9ED5ED0FDB1A5300689782 /* pinknoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pinknoise.wav; path = signals/pinknoise.wav; sourceTree = "<group>"; };
+		5D9ED5EE0FDB1A5300689782 /* whitenoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = whitenoise.wav; path = signals/whitenoise.wav; sourceTree = "<group>"; };
+		5DB1FC5F134440E800D4EE9F /* AUBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUBase.cpp; sourceTree = "<group>"; };
+		5DB1FC60134440E800D4EE9F /* AUBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUBase.h; sourceTree = "<group>"; };
+		5DB1FC61134440E800D4EE9F /* AUDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUDispatch.cpp; sourceTree = "<group>"; };
+		5DB1FC62134440E800D4EE9F /* AUDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUDispatch.h; sourceTree = "<group>"; };
+		5DB1FC63134440E800D4EE9F /* AUInputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUInputElement.cpp; sourceTree = "<group>"; };
+		5DB1FC64134440E800D4EE9F /* AUInputElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUInputElement.h; sourceTree = "<group>"; };
+		5DB1FC65134440E800D4EE9F /* AUOutputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputElement.cpp; sourceTree = "<group>"; };
+		5DB1FC66134440E800D4EE9F /* AUOutputElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUOutputElement.h; sourceTree = "<group>"; };
+		5DB1FC68134440E800D4EE9F /* AUScopeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUScopeElement.cpp; sourceTree = "<group>"; };
+		5DB1FC69134440E800D4EE9F /* AUScopeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUScopeElement.h; sourceTree = "<group>"; };
+		5DB1FC6A134440E800D4EE9F /* ComponentBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComponentBase.cpp; sourceTree = "<group>"; };
+		5DB1FC6B134440E800D4EE9F /* ComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentBase.h; sourceTree = "<group>"; };
+		5DB1FC82134440E800D4EE9F /* AUViewLocalizedStringKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUViewLocalizedStringKeys.h; sourceTree = "<group>"; };
+		5DB1FC84134440E800D4EE9F /* AUEffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUEffectBase.cpp; sourceTree = "<group>"; };
+		5DB1FC85134440E800D4EE9F /* AUEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUEffectBase.h; sourceTree = "<group>"; };
+		5DB1FC91134440E900D4EE9F /* AUBaseHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUBaseHelper.cpp; sourceTree = "<group>"; };
+		5DB1FC92134440E900D4EE9F /* AUBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUBaseHelper.h; sourceTree = "<group>"; };
+		5DB1FC93134440E900D4EE9F /* AUBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUBuffer.cpp; sourceTree = "<group>"; };
+		5DB1FC94134440E900D4EE9F /* AUBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUBuffer.h; sourceTree = "<group>"; };
+		5DB1FC95134440E900D4EE9F /* AUDebugDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUDebugDispatcher.cpp; sourceTree = "<group>"; };
+		5DB1FC96134440E900D4EE9F /* AUDebugDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUDebugDispatcher.h; sourceTree = "<group>"; };
+		5DB1FC97134440E900D4EE9F /* AUInputFormatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUInputFormatConverter.h; sourceTree = "<group>"; };
+		5DB1FC98134440E900D4EE9F /* AUSilentTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUSilentTimeout.h; sourceTree = "<group>"; };
+		5DB1FC99134440E900D4EE9F /* AUTimestampGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUTimestampGenerator.cpp; sourceTree = "<group>"; };
+		5DB1FC9A134440E900D4EE9F /* AUTimestampGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUTimestampGenerator.h; sourceTree = "<group>"; };
+		5DB1FC9C134440E900D4EE9F /* AUOutputBL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputBL.cpp; sourceTree = "<group>"; };
+		5DB1FC9D134440E900D4EE9F /* AUOutputBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUOutputBL.h; sourceTree = "<group>"; };
+		5DB1FC9E134440E900D4EE9F /* AUParamInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUParamInfo.cpp; sourceTree = "<group>"; };
+		5DB1FC9F134440E900D4EE9F /* AUParamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUParamInfo.h; sourceTree = "<group>"; };
+		5DB1FCA0134440E900D4EE9F /* CAAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomic.h; sourceTree = "<group>"; };
+		5DB1FCA1134440E900D4EE9F /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
+		5DB1FCA2134440E900D4EE9F /* CAAudioBufferList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioBufferList.cpp; sourceTree = "<group>"; };
+		5DB1FCA3134440E900D4EE9F /* CAAudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioBufferList.h; sourceTree = "<group>"; };
+		5DB1FCA4134440E900D4EE9F /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
+		5DB1FCA5134440E900D4EE9F /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
+		5DB1FCA6134440E900D4EE9F /* CAAudioChannelLayoutObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayoutObject.cpp; sourceTree = "<group>"; };
+		5DB1FCA7134440E900D4EE9F /* CAAudioFileFormats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioFileFormats.cpp; sourceTree = "<group>"; };
+		5DB1FCA8134440E900D4EE9F /* CAAudioFileFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioFileFormats.h; sourceTree = "<group>"; };
+		5DB1FCA9134440E900D4EE9F /* CAAudioTimeStamp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioTimeStamp.cpp; sourceTree = "<group>"; };
+		5DB1FCAA134440E900D4EE9F /* CAAudioTimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioTimeStamp.h; sourceTree = "<group>"; };
+		5DB1FCAB134440E900D4EE9F /* CAAudioUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioUnit.cpp; sourceTree = "<group>"; };
+		5DB1FCAC134440E900D4EE9F /* CAAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioUnit.h; sourceTree = "<group>"; };
+		5DB1FCAD134440E900D4EE9F /* CAAudioUnitOutputCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioUnitOutputCapturer.h; sourceTree = "<group>"; };
+		5DB1FCAE134440E900D4EE9F /* CAAudioValueRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioValueRange.cpp; sourceTree = "<group>"; };
+		5DB1FCAF134440E900D4EE9F /* CAAudioValueRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioValueRange.h; sourceTree = "<group>"; };
+		5DB1FCB0134440E900D4EE9F /* CAAUMIDIMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAUMIDIMap.cpp; sourceTree = "<group>"; };
+		5DB1FCB1134440E900D4EE9F /* CAAUMIDIMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAUMIDIMap.h; sourceTree = "<group>"; };
+		5DB1FCB2134440E900D4EE9F /* CAAUMIDIMapManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAUMIDIMapManager.cpp; sourceTree = "<group>"; };
+		5DB1FCB3134440E900D4EE9F /* CAAUMIDIMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAUMIDIMapManager.h; sourceTree = "<group>"; };
+		5DB1FCB4134440E900D4EE9F /* CAAUParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAUParameter.cpp; sourceTree = "<group>"; };
+		5DB1FCB5134440E900D4EE9F /* CAAUParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAUParameter.h; sourceTree = "<group>"; };
+		5DB1FCB6134440E900D4EE9F /* CAAutoDisposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAutoDisposer.h; sourceTree = "<group>"; };
+		5DB1FCB7134440E900D4EE9F /* CABitOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABitOperations.h; sourceTree = "<group>"; };
+		5DB1FCB8134440E900D4EE9F /* CABool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABool.h; sourceTree = "<group>"; };
+		5DB1FCB9134440E900D4EE9F /* CABufferList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CABufferList.cpp; sourceTree = "<group>"; };
+		5DB1FCBA134440E900D4EE9F /* CABufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABufferList.h; sourceTree = "<group>"; };
+		5DB1FCBD134440E900D4EE9F /* CAByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAByteOrder.h; sourceTree = "<group>"; };
+		5DB1FCBE134440E900D4EE9F /* CACFArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFArray.cpp; sourceTree = "<group>"; };
+		5DB1FCBF134440E900D4EE9F /* CACFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFArray.h; sourceTree = "<group>"; };
+		5DB1FCC0134440E900D4EE9F /* CACFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFData.h; sourceTree = "<group>"; };
+		5DB1FCC1134440E900D4EE9F /* CACFDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFDictionary.cpp; sourceTree = "<group>"; };
+		5DB1FCC2134440E900D4EE9F /* CACFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFDictionary.h; sourceTree = "<group>"; };
+		5DB1FCC3134440E900D4EE9F /* CACFDistributedNotification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFDistributedNotification.cpp; sourceTree = "<group>"; };
+		5DB1FCC4134440E900D4EE9F /* CACFDistributedNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFDistributedNotification.h; sourceTree = "<group>"; };
+		5DB1FCC5134440E900D4EE9F /* CACFMachPort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFMachPort.cpp; sourceTree = "<group>"; };
+		5DB1FCC6134440E900D4EE9F /* CACFMachPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFMachPort.h; sourceTree = "<group>"; };
+		5DB1FCC7134440E900D4EE9F /* CACFMessagePort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFMessagePort.cpp; sourceTree = "<group>"; };
+		5DB1FCC8134440E900D4EE9F /* CACFMessagePort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFMessagePort.h; sourceTree = "<group>"; };
+		5DB1FCC9134440E900D4EE9F /* CACFNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFNumber.cpp; sourceTree = "<group>"; };
+		5DB1FCCA134440E900D4EE9F /* CACFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFNumber.h; sourceTree = "<group>"; };
+		5DB1FCCB134440E900D4EE9F /* CACFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFObject.h; sourceTree = "<group>"; };
+		5DB1FCCC134440E900D4EE9F /* CACFPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFPlugIn.h; sourceTree = "<group>"; };
+		5DB1FCCD134440E900D4EE9F /* CACFPreferences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFPreferences.cpp; sourceTree = "<group>"; };
+		5DB1FCCE134440E900D4EE9F /* CACFPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFPreferences.h; sourceTree = "<group>"; };
+		5DB1FCCF134440E900D4EE9F /* CACFString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CACFString.cpp; sourceTree = "<group>"; };
+		5DB1FCD0134440E900D4EE9F /* CACFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACFString.h; sourceTree = "<group>"; };
+		5DB1FCD1134440E900D4EE9F /* CAComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponent.cpp; sourceTree = "<group>"; };
+		5DB1FCD2134440E900D4EE9F /* CAComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAComponent.h; sourceTree = "<group>"; };
+		5DB1FCD3134440E900D4EE9F /* CAComponentDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponentDescription.cpp; sourceTree = "<group>"; };
+		5DB1FCD4134440E900D4EE9F /* CAComponentDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAComponentDescription.h; sourceTree = "<group>"; };
+		5DB1FCD5134440E900D4EE9F /* CADebugger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugger.cpp; sourceTree = "<group>"; };
+		5DB1FCD6134440E900D4EE9F /* CADebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugger.h; sourceTree = "<group>"; };
+		5DB1FCD7134440E900D4EE9F /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		5DB1FCD8134440E900D4EE9F /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		5DB1FCD9134440E900D4EE9F /* CADebugPrintf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugPrintf.cpp; sourceTree = "<group>"; };
+		5DB1FCDA134440E900D4EE9F /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
+		5DB1FCDB134440E900D4EE9F /* CAException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAException.h; sourceTree = "<group>"; };
+		5DB1FCDC134440E900D4EE9F /* CAFilePathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAFilePathUtils.cpp; sourceTree = "<group>"; };
+		5DB1FCDD134440E900D4EE9F /* CAFilePathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAFilePathUtils.h; sourceTree = "<group>"; };
+		5DB1FCDE134440E900D4EE9F /* CAGuard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAGuard.cpp; sourceTree = "<group>"; };
+		5DB1FCDF134440E900D4EE9F /* CAGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGuard.h; sourceTree = "<group>"; };
+		5DB1FCE8134440E900D4EE9F /* CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAHostTimeBase.cpp; sourceTree = "<group>"; };
+		5DB1FCE9134440E900D4EE9F /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		5DB1FCEA134440E900D4EE9F /* CALogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALogMacros.h; sourceTree = "<group>"; };
+		5DB1FCEB134440E900D4EE9F /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		5DB1FCEC134440E900D4EE9F /* CAMixMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMixMap.h; sourceTree = "<group>"; };
+		5DB1FCED134440E900D4EE9F /* CAMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAMutex.cpp; sourceTree = "<group>"; };
+		5DB1FCEE134440E900D4EE9F /* CAMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMutex.h; sourceTree = "<group>"; };
+		5DB1FCEF134440E900D4EE9F /* CAPersistence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAPersistence.cpp; sourceTree = "<group>"; };
+		5DB1FCF2134440E900D4EE9F /* CAPropertyAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPropertyAddress.h; sourceTree = "<group>"; };
+		5DB1FCF3134440E900D4EE9F /* CAPThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAPThread.cpp; sourceTree = "<group>"; };
+		5DB1FCF4134440E900D4EE9F /* CAPThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPThread.h; sourceTree = "<group>"; };
+		5DB1FCF5134440E900D4EE9F /* CAReferenceCounted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReferenceCounted.h; sourceTree = "<group>"; };
+		5DB1FCF6134440E900D4EE9F /* CARingBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CARingBuffer.cpp; sourceTree = "<group>"; };
+		5DB1FCF7134440E900D4EE9F /* CARingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARingBuffer.h; sourceTree = "<group>"; };
+		5DB1FCF8134440E900D4EE9F /* CASettingsStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CASettingsStorage.cpp; sourceTree = "<group>"; };
+		5DB1FCF9134440E900D4EE9F /* CASettingsStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASettingsStorage.h; sourceTree = "<group>"; };
+		5DB1FCFA134440E900D4EE9F /* CASharedLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CASharedLibrary.cpp; sourceTree = "<group>"; };
+		5DB1FCFB134440E900D4EE9F /* CASharedLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASharedLibrary.h; sourceTree = "<group>"; };
+		5DB1FCFC134440E900D4EE9F /* CASpectralProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CASpectralProcessor.cpp; sourceTree = "<group>"; };
+		5DB1FCFD134440E900D4EE9F /* CASpectralProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASpectralProcessor.h; sourceTree = "<group>"; };
+		5DB1FCFE134440E900D4EE9F /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		5DB1FCFF134440E900D4EE9F /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		5DB1FD00134440E900D4EE9F /* CAStreamRangedDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamRangedDescription.cpp; sourceTree = "<group>"; };
+		5DB1FD01134440E900D4EE9F /* CAStreamRangedDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamRangedDescription.h; sourceTree = "<group>"; };
+		5DB1FD02134440E900D4EE9F /* CAThreadSafeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAThreadSafeList.h; sourceTree = "<group>"; };
+		5DB1FD03134440E900D4EE9F /* CATink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATink.h; sourceTree = "<group>"; };
+		5DB1FD04134440E900D4EE9F /* CATokenMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATokenMap.h; sourceTree = "<group>"; };
+		5DB1FD05134440E900D4EE9F /* CAVectorUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAVectorUnit.cpp; sourceTree = "<group>"; };
+		5DB1FD06134440E900D4EE9F /* CAVectorUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAVectorUnit.h; sourceTree = "<group>"; };
+		5DB1FD07134440E900D4EE9F /* CAVectorUnitTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAVectorUnitTypes.h; sourceTree = "<group>"; };
+		5DB1FD08134440E900D4EE9F /* CAVolumeCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAVolumeCurve.cpp; sourceTree = "<group>"; };
+		5DB1FD09134440E900D4EE9F /* CAVolumeCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAVolumeCurve.h; sourceTree = "<group>"; };
+		5DB1FD0A134440E900D4EE9F /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		5DB1FD0B134440E900D4EE9F /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		5DB1FD0C134440E900D4EE9F /* MatrixMixerVolumes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixMixerVolumes.cpp; sourceTree = "<group>"; };
+		5DB1FD0D134440E900D4EE9F /* MatrixMixerVolumes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixMixerVolumes.h; sourceTree = "<group>"; };
+		5DB5060D1034D237009DF00F /* ConvolverInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverInternal.h; path = Convolver/ConvolverInternal.h; sourceTree = "<group>"; };
+		5DB5089510352AED009DF00F /* Convolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Convolver; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB5089F10352B34009DF00F /* TestFrameBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestFrameBuffer.cpp; path = Convolver/TestFrameBuffer.cpp; sourceTree = "<group>"; };
+		5DB50A5B1035F4B8009DF00F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		5DB50A721035F632009DF00F /* ConvolverFFTType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvolverFFTType.h; path = Convolver/ConvolverFFTType.h; sourceTree = "<group>"; };
+		5DBC85511022585500888C49 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5DBC85521022585500888C49 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		5DC50AE40FCDD71200E9462B /* Convolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Convolver.h; path = Convolver/Convolver.h; sourceTree = "<group>"; };
+		5DC50AE50FCDD71200E9462B /* Convolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Convolver.cpp; path = Convolver/Convolver.cpp; sourceTree = "<group>"; };
+		5DC50AFF0FCDD82300E9462B /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _kiss_fft_guts.h; path = Convolver/_kiss_fft_guts.h; sourceTree = "<group>"; };
+		5DC50B000FCDD82300E9462B /* kiss_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kiss_fft.c; path = Convolver/kiss_fft.c; sourceTree = "<group>"; };
+		5DC50B010FCDD82300E9462B /* kiss_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kiss_fft.h; path = Convolver/kiss_fft.h; sourceTree = "<group>"; };
+		5DCDE96B0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeatScienceConvolvotron_GraphView.h; sourceTree = "<group>"; };
+		5DCDE96C0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeatScienceConvolvotron_GraphView.m; sourceTree = "<group>"; };
+		5DCFCC020FCDB71200D5FF9A /* TestConvolvotron.trak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestConvolvotron.trak; sourceTree = "<group>"; };
+		5DCFCC070FCDB8AC00D5FF9A /* ir.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ir.wav; sourceTree = "<group>"; };
+		5DFB25B20FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeatScienceConvolvotron_SampleView.h; sourceTree = "<group>"; };
+		5DFB25B30FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeatScienceConvolvotron_SampleView.m; sourceTree = "<group>"; };
+		8BA05A660720730100365D66 /* Convolvotron.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Convolvotron.cpp; sourceTree = "<group>"; };
+		8BA05A670720730100365D66 /* ConvolutionReverb.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; path = ConvolutionReverb.exp; sourceTree = "<group>"; };
+		8BA05A680720730100365D66 /* Convolution.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = Convolution.r; sourceTree = "<group>"; };
+		8BA05A690720730100365D66 /* ConvolutionVersion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ConvolutionVersion.h; sourceTree = "<group>"; };
+		8BA05AF9072074E100365D66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		8BA05AFA072074E100365D66 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		8BA05AFB072074E100365D66 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		8BA05B01072074F900365D66 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		8BA4ADCE073EB19800A2709A /* MeatscienceConvolvotron_CocoaViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MeatscienceConvolvotron_CocoaViewFactory.h; sourceTree = "<group>"; };
+		8BA4ADCF073EB19800A2709A /* MeatscienceConvolvotron_CocoaViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MeatscienceConvolvotron_CocoaViewFactory.m; sourceTree = "<group>"; };
+		8BA4ADD0073EB19800A2709A /* MeatscienceConvolvotron_CocoaView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MeatscienceConvolvotron_CocoaView.h; sourceTree = "<group>"; };
+		8BA4ADD1073EB19800A2709A /* MeatscienceConvolvotron_CocoaView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MeatscienceConvolvotron_CocoaView.m; sourceTree = "<group>"; };
+		8BA4ADF4073EB43200A2709A /* MeatscienceConvolvotron_CocoaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeatscienceConvolvotron_CocoaView.xib; sourceTree = "<group>"; };
+		8BA4AE4E073EB69000A2709A /* MeatscienceConvolvotron_CocoaViewFactory.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatscienceConvolvotron_CocoaViewFactory.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA4AE4F073EB69000A2709A /* MeatscienceConvolvotron_CocoaViewFactory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MeatscienceConvolvotron_CocoaViewFactory.plist; sourceTree = "<group>"; };
+		8BA4AE5B073EB79000A2709A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8BC6025B073B072D006C4272 /* Convolvotron.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Convolvotron.h; sourceTree = "<group>"; };
+		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* Meatscience_Convolution-Reverb.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meatscience_Convolution-Reverb.component"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D695EAF10099F75004BF312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB50A5D1035F4B8009DF00F /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5089110352AED009DF00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA4AE4C073EB69000A2709A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA4AE5D073EB7C300A2709A /* Cocoa.framework in Frameworks */,
+				8BA4AE5E073EB7C500A2709A /* AudioUnit.framework in Frameworks */,
+				8BA4AE5F073EB7C600A2709A /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */,
+				8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */,
+				8BA05B02072074F900365D66 /* CoreServices.framework in Frameworks */,
+				8BA4AE5C073EB79000A2709A /* Cocoa.framework in Frameworks */,
+				5D431B0F1027AEE800316C11 /* Carbon.framework in Frameworks */,
+				5DB50A5C1035F4B8009DF00F /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Convolvotron */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = Convolvotron;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5DB50A5B1035F4B8009DF00F /* Accelerate.framework */,
+				5D431B0E1027AEE800316C11 /* Carbon.framework */,
+				8BA4AE5B073EB79000A2709A /* Cocoa.framework */,
+				8BA05B01072074F900365D66 /* CoreServices.framework */,
+				8BA05AF9072074E100365D66 /* AudioToolbox.framework */,
+				8BA05AFA072074E100365D66 /* AudioUnit.framework */,
+				8BA05AFB072074E100365D66 /* CoreAudio.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC85511022585500888C49 /* logo.png */,
+				5DBC85521022585500888C49 /* title.png */,
+				5D9ED5ED0FDB1A5300689782 /* pinknoise.wav */,
+				5D9ED5EE0FDB1A5300689782 /* whitenoise.wav */,
+				5D08054F0FD11C9F001F5D0C /* bighall_ir.wav */,
+				5DCFCC070FCDB8AC00D5FF9A /* ir.wav */,
+				5DCFCC020FCDB71200D5FF9A /* TestConvolvotron.trak */,
+				8BA4ADF4073EB43200A2709A /* MeatscienceConvolvotron_CocoaView.xib */,
+				8BA4AE4F073EB69000A2709A /* MeatscienceConvolvotron_CocoaViewFactory.plist */,
+				8D01CCD10486CAD60068D4B7 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5D066A81134A613900740800 /* boost */,
+				5DB1FC5C134440C900D4EE9F /* Apple Shizzle */,
+				5DC50AE30FCDD69900E9462B /* Convolver */,
+				8BA05A56072072A900365D66 /* AU Source */,
+				8BA4ADCB073EB14C00A2709A /* CocoaUI */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* Meatscience_Convolution-Reverb.component */,
+				8BA4AE4E073EB69000A2709A /* MeatscienceConvolvotron_CocoaViewFactory.bundle */,
+				5D695EB110099F75004BF312 /* Convolver */,
+				5DB5089510352AED009DF00F /* Convolver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0E69580FDCEE7500406908 /* kiss_fft */ = {
+			isa = PBXGroup;
+			children = (
+				5D695EA510099F05004BF312 /* kiss_fftr.c */,
+				5D695EA610099F05004BF312 /* kiss_fftr.h */,
+				5DC50AFF0FCDD82300E9462B /* _kiss_fft_guts.h */,
+				5DC50B000FCDD82300E9462B /* kiss_fft.c */,
+				5DC50B010FCDD82300E9462B /* kiss_fft.h */,
+			);
+			name = kiss_fft;
+			sourceTree = "<group>";
+		};
+		5D2B7B93102BB5240065EA38 /* SSE */ = {
+			isa = PBXGroup;
+			children = (
+				5D695E9910099E78004BF312 /* SSEConvolution.h */,
+				5D695E9810099E78004BF312 /* SSEConvolution.cpp */,
+			);
+			name = SSE;
+			sourceTree = "<group>";
+		};
+		5D695EB710099F95004BF312 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				5D695EB910099FD3004BF312 /* main.cpp */,
+				5DB5089F10352B34009DF00F /* TestFrameBuffer.cpp */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		5DB1FC5C134440C900D4EE9F /* Apple Shizzle */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC5D134440E800D4EE9F /* AUPublic */,
+				5DB1FC9B134440E900D4EE9F /* PublicUtility */,
+			);
+			name = "Apple Shizzle";
+			sourceTree = "<group>";
+		};
+		5DB1FC5D134440E800D4EE9F /* AUPublic */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC5E134440E800D4EE9F /* AUBase */,
+				5DB1FC81134440E800D4EE9F /* AUViewBase */,
+				5DB1FC83134440E800D4EE9F /* OtherBases */,
+				5DB1FC90134440E900D4EE9F /* Utility */,
+			);
+			name = AUPublic;
+			path = Extras/CoreAudio/AudioUnits/AUPublic;
+			sourceTree = DEVELOPER_DIR;
+		};
+		5DB1FC5E134440E800D4EE9F /* AUBase */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC5F134440E800D4EE9F /* AUBase.cpp */,
+				5DB1FC60134440E800D4EE9F /* AUBase.h */,
+				5DB1FC61134440E800D4EE9F /* AUDispatch.cpp */,
+				5DB1FC62134440E800D4EE9F /* AUDispatch.h */,
+				5DB1FC63134440E800D4EE9F /* AUInputElement.cpp */,
+				5DB1FC64134440E800D4EE9F /* AUInputElement.h */,
+				5DB1FC65134440E800D4EE9F /* AUOutputElement.cpp */,
+				5DB1FC66134440E800D4EE9F /* AUOutputElement.h */,
+				5DB1FC68134440E800D4EE9F /* AUScopeElement.cpp */,
+				5DB1FC69134440E800D4EE9F /* AUScopeElement.h */,
+				5DB1FC6A134440E800D4EE9F /* ComponentBase.cpp */,
+				5DB1FC6B134440E800D4EE9F /* ComponentBase.h */,
+			);
+			path = AUBase;
+			sourceTree = "<group>";
+		};
+		5DB1FC81134440E800D4EE9F /* AUViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC82134440E800D4EE9F /* AUViewLocalizedStringKeys.h */,
+			);
+			path = AUViewBase;
+			sourceTree = "<group>";
+		};
+		5DB1FC83134440E800D4EE9F /* OtherBases */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC84134440E800D4EE9F /* AUEffectBase.cpp */,
+				5DB1FC85134440E800D4EE9F /* AUEffectBase.h */,
+			);
+			path = OtherBases;
+			sourceTree = "<group>";
+		};
+		5DB1FC90134440E900D4EE9F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC91134440E900D4EE9F /* AUBaseHelper.cpp */,
+				5DB1FC92134440E900D4EE9F /* AUBaseHelper.h */,
+				5DB1FC93134440E900D4EE9F /* AUBuffer.cpp */,
+				5DB1FC94134440E900D4EE9F /* AUBuffer.h */,
+				5DB1FC95134440E900D4EE9F /* AUDebugDispatcher.cpp */,
+				5DB1FC96134440E900D4EE9F /* AUDebugDispatcher.h */,
+				5DB1FC97134440E900D4EE9F /* AUInputFormatConverter.h */,
+				5DB1FC98134440E900D4EE9F /* AUSilentTimeout.h */,
+				5DB1FC99134440E900D4EE9F /* AUTimestampGenerator.cpp */,
+				5DB1FC9A134440E900D4EE9F /* AUTimestampGenerator.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5DB1FC9B134440E900D4EE9F /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				5DB1FC9C134440E900D4EE9F /* AUOutputBL.cpp */,
+				5DB1FC9D134440E900D4EE9F /* AUOutputBL.h */,
+				5DB1FC9E134440E900D4EE9F /* AUParamInfo.cpp */,
+				5DB1FC9F134440E900D4EE9F /* AUParamInfo.h */,
+				5DB1FCA0134440E900D4EE9F /* CAAtomic.h */,
+				5DB1FCA1134440E900D4EE9F /* CAAtomicStack.h */,
+				5DB1FCA2134440E900D4EE9F /* CAAudioBufferList.cpp */,
+				5DB1FCA3134440E900D4EE9F /* CAAudioBufferList.h */,
+				5DB1FCA4134440E900D4EE9F /* CAAudioChannelLayout.cpp */,
+				5DB1FCA5134440E900D4EE9F /* CAAudioChannelLayout.h */,
+				5DB1FCA6134440E900D4EE9F /* CAAudioChannelLayoutObject.cpp */,
+				5DB1FCA7134440E900D4EE9F /* CAAudioFileFormats.cpp */,
+				5DB1FCA8134440E900D4EE9F /* CAAudioFileFormats.h */,
+				5DB1FCA9134440E900D4EE9F /* CAAudioTimeStamp.cpp */,
+				5DB1FCAA134440E900D4EE9F /* CAAudioTimeStamp.h */,
+				5DB1FCAB134440E900D4EE9F /* CAAudioUnit.cpp */,
+				5DB1FCAC134440E900D4EE9F /* CAAudioUnit.h */,
+				5DB1FCAD134440E900D4EE9F /* CAAudioUnitOutputCapturer.h */,
+				5DB1FCAE134440E900D4EE9F /* CAAudioValueRange.cpp */,
+				5DB1FCAF134440E900D4EE9F /* CAAudioValueRange.h */,
+				5DB1FCB0134440E900D4EE9F /* CAAUMIDIMap.cpp */,
+				5DB1FCB1134440E900D4EE9F /* CAAUMIDIMap.h */,
+				5DB1FCB2134440E900D4EE9F /* CAAUMIDIMapManager.cpp */,
+				5DB1FCB3134440E900D4EE9F /* CAAUMIDIMapManager.h */,
+				5DB1FCB4134440E900D4EE9F /* CAAUParameter.cpp */,
+				5DB1FCB5134440E900D4EE9F /* CAAUParameter.h */,
+				5DB1FCB6134440E900D4EE9F /* CAAutoDisposer.h */,
+				5DB1FCB7134440E900D4EE9F /* CABitOperations.h */,
+				5DB1FCB8134440E900D4EE9F /* CABool.h */,
+				5DB1FCB9134440E900D4EE9F /* CABufferList.cpp */,
+				5DB1FCBA134440E900D4EE9F /* CABufferList.h */,
+				5DB1FCBD134440E900D4EE9F /* CAByteOrder.h */,
+				5DB1FCBE134440E900D4EE9F /* CACFArray.cpp */,
+				5DB1FCBF134440E900D4EE9F /* CACFArray.h */,
+				5DB1FCC0134440E900D4EE9F /* CACFData.h */,
+				5DB1FCC1134440E900D4EE9F /* CACFDictionary.cpp */,
+				5DB1FCC2134440E900D4EE9F /* CACFDictionary.h */,
+				5DB1FCC3134440E900D4EE9F /* CACFDistributedNotification.cpp */,
+				5DB1FCC4134440E900D4EE9F /* CACFDistributedNotification.h */,
+				5DB1FCC5134440E900D4EE9F /* CACFMachPort.cpp */,
+				5DB1FCC6134440E900D4EE9F /* CACFMachPort.h */,
+				5DB1FCC7134440E900D4EE9F /* CACFMessagePort.cpp */,
+				5DB1FCC8134440E900D4EE9F /* CACFMessagePort.h */,
+				5DB1FCC9134440E900D4EE9F /* CACFNumber.cpp */,
+				5DB1FCCA134440E900D4EE9F /* CACFNumber.h */,
+				5DB1FCCB134440E900D4EE9F /* CACFObject.h */,
+				5DB1FCCC134440E900D4EE9F /* CACFPlugIn.h */,
+				5DB1FCCD134440E900D4EE9F /* CACFPreferences.cpp */,
+				5DB1FCCE134440E900D4EE9F /* CACFPreferences.h */,
+				5DB1FCCF134440E900D4EE9F /* CACFString.cpp */,
+				5DB1FCD0134440E900D4EE9F /* CACFString.h */,
+				5DB1FCD1134440E900D4EE9F /* CAComponent.cpp */,
+				5DB1FCD2134440E900D4EE9F /* CAComponent.h */,
+				5DB1FCD3134440E900D4EE9F /* CAComponentDescription.cpp */,
+				5DB1FCD4134440E900D4EE9F /* CAComponentDescription.h */,
+				5DB1FCD5134440E900D4EE9F /* CADebugger.cpp */,
+				5DB1FCD6134440E900D4EE9F /* CADebugger.h */,
+				5DB1FCD7134440E900D4EE9F /* CADebugMacros.cpp */,
+				5DB1FCD8134440E900D4EE9F /* CADebugMacros.h */,
+				5DB1FCD9134440E900D4EE9F /* CADebugPrintf.cpp */,
+				5DB1FCDA134440E900D4EE9F /* CADebugPrintf.h */,
+				5DB1FCDB134440E900D4EE9F /* CAException.h */,
+				5DB1FCDC134440E900D4EE9F /* CAFilePathUtils.cpp */,
+				5DB1FCDD134440E900D4EE9F /* CAFilePathUtils.h */,
+				5DB1FCDE134440E900D4EE9F /* CAGuard.cpp */,
+				5DB1FCDF134440E900D4EE9F /* CAGuard.h */,
+				5DB1FCE8134440E900D4EE9F /* CAHostTimeBase.cpp */,
+				5DB1FCE9134440E900D4EE9F /* CAHostTimeBase.h */,
+				5DB1FCEA134440E900D4EE9F /* CALogMacros.h */,
+				5DB1FCEB134440E900D4EE9F /* CAMath.h */,
+				5DB1FCEC134440E900D4EE9F /* CAMixMap.h */,
+				5DB1FCED134440E900D4EE9F /* CAMutex.cpp */,
+				5DB1FCEE134440E900D4EE9F /* CAMutex.h */,
+				5DB1FCEF134440E900D4EE9F /* CAPersistence.cpp */,
+				5DB1FCF2134440E900D4EE9F /* CAPropertyAddress.h */,
+				5DB1FCF3134440E900D4EE9F /* CAPThread.cpp */,
+				5DB1FCF4134440E900D4EE9F /* CAPThread.h */,
+				5DB1FCF5134440E900D4EE9F /* CAReferenceCounted.h */,
+				5DB1FCF6134440E900D4EE9F /* CARingBuffer.cpp */,
+				5DB1FCF7134440E900D4EE9F /* CARingBuffer.h */,
+				5DB1FCF8134440E900D4EE9F /* CASettingsStorage.cpp */,
+				5DB1FCF9134440E900D4EE9F /* CASettingsStorage.h */,
+				5DB1FCFA134440E900D4EE9F /* CASharedLibrary.cpp */,
+				5DB1FCFB134440E900D4EE9F /* CASharedLibrary.h */,
+				5DB1FCFC134440E900D4EE9F /* CASpectralProcessor.cpp */,
+				5DB1FCFD134440E900D4EE9F /* CASpectralProcessor.h */,
+				5DB1FCFE134440E900D4EE9F /* CAStreamBasicDescription.cpp */,
+				5DB1FCFF134440E900D4EE9F /* CAStreamBasicDescription.h */,
+				5DB1FD00134440E900D4EE9F /* CAStreamRangedDescription.cpp */,
+				5DB1FD01134440E900D4EE9F /* CAStreamRangedDescription.h */,
+				5DB1FD02134440E900D4EE9F /* CAThreadSafeList.h */,
+				5DB1FD03134440E900D4EE9F /* CATink.h */,
+				5DB1FD04134440E900D4EE9F /* CATokenMap.h */,
+				5DB1FD05134440E900D4EE9F /* CAVectorUnit.cpp */,
+				5DB1FD06134440E900D4EE9F /* CAVectorUnit.h */,
+				5DB1FD07134440E900D4EE9F /* CAVectorUnitTypes.h */,
+				5DB1FD08134440E900D4EE9F /* CAVolumeCurve.cpp */,
+				5DB1FD09134440E900D4EE9F /* CAVolumeCurve.h */,
+				5DB1FD0A134440E900D4EE9F /* CAXException.cpp */,
+				5DB1FD0B134440E900D4EE9F /* CAXException.h */,
+				5DB1FD0C134440E900D4EE9F /* MatrixMixerVolumes.cpp */,
+				5DB1FD0D134440E900D4EE9F /* MatrixMixerVolumes.h */,
+			);
+			name = PublicUtility;
+			path = Extras/CoreAudio/PublicUtility;
+			sourceTree = DEVELOPER_DIR;
+		};
+		5DC50AE30FCDD69900E9462B /* Convolver */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B7B93102BB5240065EA38 /* SSE */,
+				5D0E69580FDCEE7500406908 /* kiss_fft */,
+				5D695EB710099F95004BF312 /* main */,
+				5DC50AE40FCDD71200E9462B /* Convolver.h */,
+				5DC50AE50FCDD71200E9462B /* Convolver.cpp */,
+				5D2B7F9E102C26670065EA38 /* ConvolverFFT.cpp */,
+				5D2B7F9F102C26670065EA38 /* ConvolverFFT.h */,
+				5DB50A721035F632009DF00F /* ConvolverFFTType.h */,
+				5D2B7FA0102C26670065EA38 /* ConvolverFilter.cpp */,
+				5D2B7FA1102C26670065EA38 /* ConvolverFilter.h */,
+				5DB5060D1034D237009DF00F /* ConvolverInternal.h */,
+				5D2B8195102CEA2F0065EA38 /* ConvolverKernel.cpp */,
+				5D2B8196102CEA2F0065EA38 /* ConvolverKernel.h */,
+				5D2B7FA2102C26670065EA38 /* ConvolverSignal.cpp */,
+				5D2B7FA3102C26670065EA38 /* ConvolverSignal.h */,
+				5D2B7FA4102C26670065EA38 /* ConvolverState.cpp */,
+				5D2B7FA5102C26670065EA38 /* ConvolverState.h */,
+				5D8B60E310391FBD00C9C090 /* ConvolverStateTypes.h */,
+				5D2B81DF102CF2230065EA38 /* ConvolverTypes.cpp */,
+				5D2B81DE102CF2230065EA38 /* ConvolverTypes.h */,
+				5D695F8A1009B09C004BF312 /* ConvolvotronProperties.h */,
+				5D431EC01028DEE600316C11 /* DebugSettings.h */,
+				5D695E9710099E78004BF312 /* FilterLab.h */,
+				5D695E9610099E78004BF312 /* FilterLab.cpp */,
+				5D8B5DE21038C1C800C9C090 /* LockFreeQueue.h */,
+			);
+			name = Convolver;
+			sourceTree = "<group>";
+		};
+		8BA05A56072072A900365D66 /* AU Source */ = {
+			isa = PBXGroup;
+			children = (
+				8BC6025B073B072D006C4272 /* Convolvotron.h */,
+				8BA05A660720730100365D66 /* Convolvotron.cpp */,
+				8BA05A670720730100365D66 /* ConvolutionReverb.exp */,
+				8BA05A680720730100365D66 /* Convolution.r */,
+				8BA05A690720730100365D66 /* ConvolutionVersion.h */,
+				5D2B8285102CF7050065EA38 /* AUConvolver.h */,
+				5D2B8286102CF7050065EA38 /* AUConvolver.cpp */,
+			);
+			name = "AU Source";
+			sourceTree = "<group>";
+		};
+		8BA4ADCB073EB14C00A2709A /* CocoaUI */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4ADCE073EB19800A2709A /* MeatscienceConvolvotron_CocoaViewFactory.h */,
+				8BA4ADCF073EB19800A2709A /* MeatscienceConvolvotron_CocoaViewFactory.m */,
+				8BA4ADD0073EB19800A2709A /* MeatscienceConvolvotron_CocoaView.h */,
+				8BA4ADD1073EB19800A2709A /* MeatscienceConvolvotron_CocoaView.m */,
+				5DCDE96B0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.h */,
+				5DCDE96C0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.m */,
+				5DFB25B20FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.h */,
+				5DFB25B30FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.m */,
+			);
+			name = CocoaUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D695ED31009A0CF004BF312 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D695EBC1009A01E004BF312 /* kiss_fftr.h in Headers */,
+				5D695EC01009A01E004BF312 /* Convolver.h in Headers */,
+				5D695EBD1009A01E004BF312 /* _kiss_fft_guts.h in Headers */,
+				5D695EBF1009A01E004BF312 /* kiss_fft.h in Headers */,
+				5D695EC31009A01E004BF312 /* FilterLab.h in Headers */,
+				5D695EC51009A01E004BF312 /* SSEConvolution.h in Headers */,
+				5D695F8B1009B09C004BF312 /* ConvolvotronProperties.h in Headers */,
+				5D431EC21028DEE600316C11 /* DebugSettings.h in Headers */,
+				5D2B7FA7102C26670065EA38 /* ConvolverFFT.h in Headers */,
+				5D2B7FA9102C26670065EA38 /* ConvolverFilter.h in Headers */,
+				5D2B7FAB102C26670065EA38 /* ConvolverSignal.h in Headers */,
+				5D2B7FAD102C26670065EA38 /* ConvolverState.h in Headers */,
+				5D2B819A102CEA2F0065EA38 /* ConvolverKernel.h in Headers */,
+				5D2B81E2102CF2230065EA38 /* ConvolverTypes.h in Headers */,
+				5DB5060F1034D238009DF00F /* ConvolverInternal.h in Headers */,
+				5DB50A731035F632009DF00F /* ConvolverFFTType.h in Headers */,
+				5D8B5DE31038C1C800C9C090 /* LockFreeQueue.h in Headers */,
+				5D8B60E510391FBD00C9C090 /* ConvolverStateTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5087410352AED009DF00F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5087510352AED009DF00F /* kiss_fftr.h in Headers */,
+				5DB5087610352AED009DF00F /* Convolver.h in Headers */,
+				5DB5087710352AED009DF00F /* _kiss_fft_guts.h in Headers */,
+				5DB5087810352AED009DF00F /* kiss_fft.h in Headers */,
+				5DB5087910352AED009DF00F /* FilterLab.h in Headers */,
+				5DB5087A10352AED009DF00F /* SSEConvolution.h in Headers */,
+				5DB5087B10352AED009DF00F /* ConvolvotronProperties.h in Headers */,
+				5DB5087C10352AED009DF00F /* DebugSettings.h in Headers */,
+				5DB5087D10352AED009DF00F /* ConvolverFFT.h in Headers */,
+				5DB5087E10352AED009DF00F /* ConvolverFilter.h in Headers */,
+				5DB5087F10352AED009DF00F /* ConvolverSignal.h in Headers */,
+				5DB5088010352AED009DF00F /* ConvolverState.h in Headers */,
+				5DB5088110352AED009DF00F /* ConvolverKernel.h in Headers */,
+				5DB5088210352AED009DF00F /* ConvolverTypes.h in Headers */,
+				5DB5088310352AED009DF00F /* ConvolverInternal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA4AE52073EB70000A2709A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA4AE54073EB72300A2709A /* MeatscienceConvolvotron_CocoaViewFactory.h in Headers */,
+				8BA4AE55073EB72300A2709A /* MeatscienceConvolvotron_CocoaView.h in Headers */,
+				5DCDE96D0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.h in Headers */,
+				5DFB25B40FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.h in Headers */,
+				5D431EC31028DEE600316C11 /* DebugSettings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCC70486CAD60068D4B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC50C2A0FCDF08400E9462B /* _kiss_fft_guts.h in Headers */,
+				5DC50C2B0FCDF08400E9462B /* kiss_fft.h in Headers */,
+				5DC50AE60FCDD71200E9462B /* Convolver.h in Headers */,
+				8BA05A6E0720730100365D66 /* ConvolutionVersion.h in Headers */,
+				8BC6025C073B072D006C4272 /* Convolvotron.h in Headers */,
+				5D695E9B10099E78004BF312 /* FilterLab.h in Headers */,
+				5D695E9D10099E78004BF312 /* SSEConvolution.h in Headers */,
+				5D695EA810099F05004BF312 /* kiss_fftr.h in Headers */,
+				5D695F8C1009B09C004BF312 /* ConvolvotronProperties.h in Headers */,
+				5D431EC11028DEE600316C11 /* DebugSettings.h in Headers */,
+				5D2B7FAF102C26670065EA38 /* ConvolverFFT.h in Headers */,
+				5D2B7FB1102C26670065EA38 /* ConvolverFilter.h in Headers */,
+				5D2B7FB3102C26670065EA38 /* ConvolverSignal.h in Headers */,
+				5D2B7FB5102C26670065EA38 /* ConvolverState.h in Headers */,
+				5D2B8198102CEA2F0065EA38 /* ConvolverKernel.h in Headers */,
+				5D2B81E0102CF2230065EA38 /* ConvolverTypes.h in Headers */,
+				5D2B8287102CF7050065EA38 /* AUConvolver.h in Headers */,
+				5DB5060E1034D237009DF00F /* ConvolverInternal.h in Headers */,
+				5DB50A741035F632009DF00F /* ConvolverFFTType.h in Headers */,
+				5D8B5DE41038C1C800C9C090 /* LockFreeQueue.h in Headers */,
+				5D8B60E410391FBD00C9C090 /* ConvolverStateTypes.h in Headers */,
+				5DB1FD0F134440E900D4EE9F /* AUBase.h in Headers */,
+				5DB1FD11134440E900D4EE9F /* AUDispatch.h in Headers */,
+				5DB1FD13134440E900D4EE9F /* AUInputElement.h in Headers */,
+				5DB1FD15134440E900D4EE9F /* AUOutputElement.h in Headers */,
+				5DB1FD18134440E900D4EE9F /* AUScopeElement.h in Headers */,
+				5DB1FD1A134440E900D4EE9F /* ComponentBase.h in Headers */,
+				5DB1FD2E134440E900D4EE9F /* AUViewLocalizedStringKeys.h in Headers */,
+				5DB1FD30134440E900D4EE9F /* AUEffectBase.h in Headers */,
+				5DB1FD3C134440E900D4EE9F /* AUBaseHelper.h in Headers */,
+				5DB1FD3E134440E900D4EE9F /* AUBuffer.h in Headers */,
+				5DB1FD40134440E900D4EE9F /* AUDebugDispatcher.h in Headers */,
+				5DB1FD41134440E900D4EE9F /* AUInputFormatConverter.h in Headers */,
+				5DB1FD42134440E900D4EE9F /* AUSilentTimeout.h in Headers */,
+				5DB1FD44134440E900D4EE9F /* AUTimestampGenerator.h in Headers */,
+				5DB1FD46134440E900D4EE9F /* AUOutputBL.h in Headers */,
+				5DB1FD48134440E900D4EE9F /* AUParamInfo.h in Headers */,
+				5DB1FD49134440E900D4EE9F /* CAAtomic.h in Headers */,
+				5DB1FD4A134440E900D4EE9F /* CAAtomicStack.h in Headers */,
+				5DB1FD4C134440E900D4EE9F /* CAAudioBufferList.h in Headers */,
+				5DB1FD4E134440E900D4EE9F /* CAAudioChannelLayout.h in Headers */,
+				5DB1FD51134440E900D4EE9F /* CAAudioFileFormats.h in Headers */,
+				5DB1FD53134440E900D4EE9F /* CAAudioTimeStamp.h in Headers */,
+				5DB1FD55134440E900D4EE9F /* CAAudioUnit.h in Headers */,
+				5DB1FD56134440E900D4EE9F /* CAAudioUnitOutputCapturer.h in Headers */,
+				5DB1FD58134440E900D4EE9F /* CAAudioValueRange.h in Headers */,
+				5DB1FD5A134440E900D4EE9F /* CAAUMIDIMap.h in Headers */,
+				5DB1FD5C134440E900D4EE9F /* CAAUMIDIMapManager.h in Headers */,
+				5DB1FD5E134440E900D4EE9F /* CAAUParameter.h in Headers */,
+				5DB1FD5F134440E900D4EE9F /* CAAutoDisposer.h in Headers */,
+				5DB1FD60134440E900D4EE9F /* CABitOperations.h in Headers */,
+				5DB1FD61134440E900D4EE9F /* CABool.h in Headers */,
+				5DB1FD63134440E900D4EE9F /* CABufferList.h in Headers */,
+				5DB1FD66134440E900D4EE9F /* CAByteOrder.h in Headers */,
+				5DB1FD68134440E900D4EE9F /* CACFArray.h in Headers */,
+				5DB1FD69134440E900D4EE9F /* CACFData.h in Headers */,
+				5DB1FD6B134440E900D4EE9F /* CACFDictionary.h in Headers */,
+				5DB1FD6D134440E900D4EE9F /* CACFDistributedNotification.h in Headers */,
+				5DB1FD6F134440E900D4EE9F /* CACFMachPort.h in Headers */,
+				5DB1FD71134440E900D4EE9F /* CACFMessagePort.h in Headers */,
+				5DB1FD73134440E900D4EE9F /* CACFNumber.h in Headers */,
+				5DB1FD74134440E900D4EE9F /* CACFObject.h in Headers */,
+				5DB1FD75134440E900D4EE9F /* CACFPlugIn.h in Headers */,
+				5DB1FD77134440E900D4EE9F /* CACFPreferences.h in Headers */,
+				5DB1FD79134440E900D4EE9F /* CACFString.h in Headers */,
+				5DB1FD7B134440E900D4EE9F /* CAComponent.h in Headers */,
+				5DB1FD7D134440E900D4EE9F /* CAComponentDescription.h in Headers */,
+				5DB1FD7F134440E900D4EE9F /* CADebugger.h in Headers */,
+				5DB1FD81134440E900D4EE9F /* CADebugMacros.h in Headers */,
+				5DB1FD83134440E900D4EE9F /* CADebugPrintf.h in Headers */,
+				5DB1FD84134440E900D4EE9F /* CAException.h in Headers */,
+				5DB1FD86134440E900D4EE9F /* CAFilePathUtils.h in Headers */,
+				5DB1FD88134440E900D4EE9F /* CAGuard.h in Headers */,
+				5DB1FD92134440E900D4EE9F /* CAHostTimeBase.h in Headers */,
+				5DB1FD93134440E900D4EE9F /* CALogMacros.h in Headers */,
+				5DB1FD94134440E900D4EE9F /* CAMath.h in Headers */,
+				5DB1FD95134440E900D4EE9F /* CAMixMap.h in Headers */,
+				5DB1FD97134440E900D4EE9F /* CAMutex.h in Headers */,
+				5DB1FD9B134440E900D4EE9F /* CAPropertyAddress.h in Headers */,
+				5DB1FD9D134440E900D4EE9F /* CAPThread.h in Headers */,
+				5DB1FD9E134440E900D4EE9F /* CAReferenceCounted.h in Headers */,
+				5DB1FDA0134440E900D4EE9F /* CARingBuffer.h in Headers */,
+				5DB1FDA2134440E900D4EE9F /* CASettingsStorage.h in Headers */,
+				5DB1FDA4134440E900D4EE9F /* CASharedLibrary.h in Headers */,
+				5DB1FDA6134440E900D4EE9F /* CASpectralProcessor.h in Headers */,
+				5DB1FDA8134440E900D4EE9F /* CAStreamBasicDescription.h in Headers */,
+				5DB1FDAA134440E900D4EE9F /* CAStreamRangedDescription.h in Headers */,
+				5DB1FDAB134440E900D4EE9F /* CAThreadSafeList.h in Headers */,
+				5DB1FDAC134440E900D4EE9F /* CATink.h in Headers */,
+				5DB1FDAD134440E900D4EE9F /* CATokenMap.h in Headers */,
+				5DB1FDAF134440E900D4EE9F /* CAVectorUnit.h in Headers */,
+				5DB1FDB0134440E900D4EE9F /* CAVectorUnitTypes.h in Headers */,
+				5DB1FDB2134440E900D4EE9F /* CAVolumeCurve.h in Headers */,
+				5DB1FDB4134440E900D4EE9F /* CAXException.h in Headers */,
+				5DB1FDB6134440E900D4EE9F /* MatrixMixerVolumes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D695EB010099F75004BF312 /* Convolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D695EB810099F96004BF312 /* Build configuration list for PBXNativeTarget "Convolver" */;
+			buildPhases = (
+				5D695ED31009A0CF004BF312 /* Headers */,
+				5D695EAE10099F75004BF312 /* Sources */,
+				5D695EAF10099F75004BF312 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Convolver;
+			productName = Convolver;
+			productReference = 5D695EB110099F75004BF312 /* Convolver */;
+			productType = "com.apple.product-type.tool";
+		};
+		5DB5087310352AED009DF00F /* TestFrameBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB5089210352AED009DF00F /* Build configuration list for PBXNativeTarget "TestFrameBuffer" */;
+			buildPhases = (
+				5DB5087410352AED009DF00F /* Headers */,
+				5DB5088410352AED009DF00F /* Sources */,
+				5DB5089110352AED009DF00F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFrameBuffer;
+			productName = Convolver;
+			productReference = 5DB5089510352AED009DF00F /* Convolver */;
+			productType = "com.apple.product-type.tool";
+		};
+		8BA4AE4D073EB69000A2709A /* CocoaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0BECFE0898391C00E1F0F7 /* Build configuration list for PBXNativeTarget "CocoaUI" */;
+			buildPhases = (
+				8BA4AE52073EB70000A2709A /* Headers */,
+				8BA4AE4A073EB69000A2709A /* Resources */,
+				8BA4AE4B073EB69000A2709A /* Sources */,
+				8BA4AE4C073EB69000A2709A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaUI;
+			productName = CocoaUI;
+			productReference = 8BA4AE4E073EB69000A2709A /* MeatscienceConvolvotron_CocoaViewFactory.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D01CCC60486CAD60068D4B7 /* ConvolutionReverb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0BED020898391C00E1F0F7 /* Build configuration list for PBXNativeTarget "ConvolutionReverb" */;
+			buildPhases = (
+				8D01CCC70486CAD60068D4B7 /* Headers */,
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				8D01CCCF0486CAD60068D4B7 /* Rez */,
+				8BA4AE65073EBB1B00A2709A /* CopyFiles */,
+				5DCDE8D30FCD057F0093EB8B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7609A460C556A700040AAA6 /* PBXTargetDependency */,
+			);
+			name = ConvolutionReverb;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = Convolvotron;
+			productReference = 8D01CCD20486CAD60068D4B7 /* Meatscience_Convolution-Reverb.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3E0BED060898391C00E1F0F7 /* Build configuration list for PBXProject "Convolvotron" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Convolvotron */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* ConvolutionReverb */,
+				8BA4AE4D073EB69000A2709A /* CocoaUI */,
+				5D695EB010099F75004BF312 /* Convolver */,
+				5DB5087310352AED009DF00F /* TestFrameBuffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BA4AE4A073EB69000A2709A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBC856910225BEE00888C49 /* logo.png in Resources */,
+				5DBC856A10225BEE00888C49 /* title.png in Resources */,
+				8BA4AE58073EB74C00A2709A /* MeatscienceConvolvotron_CocoaView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F94AE7910250DB700C31A76 /* logo.png in Resources */,
+				5F94AE7A10250DB700C31A76 /* title.png in Resources */,
+				8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */,
+				5DCFCC080FCDB8AC00D5FF9A /* ir.wav in Resources */,
+				5D0805500FD11C9F001F5D0C /* bighall_ir.wav in Resources */,
+				5D9ED5EF0FDB1A5300689782 /* pinknoise.wav in Resources */,
+				5D9ED5F00FDB1A5300689782 /* whitenoise.wav in Resources */,
+				5D066A82134A613900740800 /* boost in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D01CCCF0486CAD60068D4B7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D42F5121346849B00CE7932 /* Convolution.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D695EAE10099F75004BF312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D695EBB1009A01E004BF312 /* kiss_fftr.c in Sources */,
+				5D695EBE1009A01E004BF312 /* kiss_fft.c in Sources */,
+				5D695EC11009A01E004BF312 /* Convolver.cpp in Sources */,
+				5D695EC21009A01E004BF312 /* FilterLab.cpp in Sources */,
+				5D695EC41009A01E004BF312 /* SSEConvolution.cpp in Sources */,
+				5D695EBA10099FD3004BF312 /* main.cpp in Sources */,
+				5D2B7FA6102C26670065EA38 /* ConvolverFFT.cpp in Sources */,
+				5D2B7FA8102C26670065EA38 /* ConvolverFilter.cpp in Sources */,
+				5D2B7FAA102C26670065EA38 /* ConvolverSignal.cpp in Sources */,
+				5D2B7FAC102C26670065EA38 /* ConvolverState.cpp in Sources */,
+				5D2B8199102CEA2F0065EA38 /* ConvolverKernel.cpp in Sources */,
+				5D2B81E3102CF2230065EA38 /* ConvolverTypes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB5088410352AED009DF00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB5088510352AED009DF00F /* kiss_fftr.c in Sources */,
+				5DB5088610352AED009DF00F /* kiss_fft.c in Sources */,
+				5DB5088710352AED009DF00F /* Convolver.cpp in Sources */,
+				5DB5088810352AED009DF00F /* FilterLab.cpp in Sources */,
+				5DB5088910352AED009DF00F /* SSEConvolution.cpp in Sources */,
+				5DB5088B10352AED009DF00F /* ConvolverFFT.cpp in Sources */,
+				5DB5088C10352AED009DF00F /* ConvolverFilter.cpp in Sources */,
+				5DB5088D10352AED009DF00F /* ConvolverSignal.cpp in Sources */,
+				5DB5088E10352AED009DF00F /* ConvolverState.cpp in Sources */,
+				5DB5088F10352AED009DF00F /* ConvolverKernel.cpp in Sources */,
+				5DB5089010352AED009DF00F /* ConvolverTypes.cpp in Sources */,
+				5DB508A010352B34009DF00F /* TestFrameBuffer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA4AE4B073EB69000A2709A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA4AE56073EB73300A2709A /* MeatscienceConvolvotron_CocoaViewFactory.m in Sources */,
+				8BA4AE57073EB73300A2709A /* MeatscienceConvolvotron_CocoaView.m in Sources */,
+				5DCDE96E0FCD0F220093EB8B /* MeatScienceConvolvotron_GraphView.m in Sources */,
+				5DFB25B50FE6F430001821D3 /* MeatScienceConvolvotron_SampleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC50C2C0FCDF09000E9462B /* kiss_fft.c in Sources */,
+				5DC50C2D0FCDF09000E9462B /* Convolver.cpp in Sources */,
+				8BA05A6B0720730100365D66 /* Convolvotron.cpp in Sources */,
+				5D695E9A10099E78004BF312 /* FilterLab.cpp in Sources */,
+				5D695E9C10099E78004BF312 /* SSEConvolution.cpp in Sources */,
+				5D695EA710099F05004BF312 /* kiss_fftr.c in Sources */,
+				5D2B7FAE102C26670065EA38 /* ConvolverFFT.cpp in Sources */,
+				5D2B7FB0102C26670065EA38 /* ConvolverFilter.cpp in Sources */,
+				5D2B7FB2102C26670065EA38 /* ConvolverSignal.cpp in Sources */,
+				5D2B7FB4102C26670065EA38 /* ConvolverState.cpp in Sources */,
+				5D2B8197102CEA2F0065EA38 /* ConvolverKernel.cpp in Sources */,
+				5D2B81E1102CF2230065EA38 /* ConvolverTypes.cpp in Sources */,
+				5D2B8288102CF7050065EA38 /* AUConvolver.cpp in Sources */,
+				5DB1FD0E134440E900D4EE9F /* AUBase.cpp in Sources */,
+				5DB1FD10134440E900D4EE9F /* AUDispatch.cpp in Sources */,
+				5DB1FD12134440E900D4EE9F /* AUInputElement.cpp in Sources */,
+				5DB1FD14134440E900D4EE9F /* AUOutputElement.cpp in Sources */,
+				5DB1FD17134440E900D4EE9F /* AUScopeElement.cpp in Sources */,
+				5DB1FD19134440E900D4EE9F /* ComponentBase.cpp in Sources */,
+				5DB1FD2F134440E900D4EE9F /* AUEffectBase.cpp in Sources */,
+				5DB1FD3B134440E900D4EE9F /* AUBaseHelper.cpp in Sources */,
+				5DB1FD3D134440E900D4EE9F /* AUBuffer.cpp in Sources */,
+				5DB1FD3F134440E900D4EE9F /* AUDebugDispatcher.cpp in Sources */,
+				5DB1FD43134440E900D4EE9F /* AUTimestampGenerator.cpp in Sources */,
+				5DB1FD45134440E900D4EE9F /* AUOutputBL.cpp in Sources */,
+				5DB1FD47134440E900D4EE9F /* AUParamInfo.cpp in Sources */,
+				5DB1FD4B134440E900D4EE9F /* CAAudioBufferList.cpp in Sources */,
+				5DB1FD4D134440E900D4EE9F /* CAAudioChannelLayout.cpp in Sources */,
+				5DB1FD4F134440E900D4EE9F /* CAAudioChannelLayoutObject.cpp in Sources */,
+				5DB1FD50134440E900D4EE9F /* CAAudioFileFormats.cpp in Sources */,
+				5DB1FD52134440E900D4EE9F /* CAAudioTimeStamp.cpp in Sources */,
+				5DB1FD54134440E900D4EE9F /* CAAudioUnit.cpp in Sources */,
+				5DB1FD57134440E900D4EE9F /* CAAudioValueRange.cpp in Sources */,
+				5DB1FD59134440E900D4EE9F /* CAAUMIDIMap.cpp in Sources */,
+				5DB1FD5B134440E900D4EE9F /* CAAUMIDIMapManager.cpp in Sources */,
+				5DB1FD5D134440E900D4EE9F /* CAAUParameter.cpp in Sources */,
+				5DB1FD62134440E900D4EE9F /* CABufferList.cpp in Sources */,
+				5DB1FD67134440E900D4EE9F /* CACFArray.cpp in Sources */,
+				5DB1FD6A134440E900D4EE9F /* CACFDictionary.cpp in Sources */,
+				5DB1FD6C134440E900D4EE9F /* CACFDistributedNotification.cpp in Sources */,
+				5DB1FD6E134440E900D4EE9F /* CACFMachPort.cpp in Sources */,
+				5DB1FD70134440E900D4EE9F /* CACFMessagePort.cpp in Sources */,
+				5DB1FD72134440E900D4EE9F /* CACFNumber.cpp in Sources */,
+				5DB1FD76134440E900D4EE9F /* CACFPreferences.cpp in Sources */,
+				5DB1FD78134440E900D4EE9F /* CACFString.cpp in Sources */,
+				5DB1FD7A134440E900D4EE9F /* CAComponent.cpp in Sources */,
+				5DB1FD7C134440E900D4EE9F /* CAComponentDescription.cpp in Sources */,
+				5DB1FD7E134440E900D4EE9F /* CADebugger.cpp in Sources */,
+				5DB1FD80134440E900D4EE9F /* CADebugMacros.cpp in Sources */,
+				5DB1FD82134440E900D4EE9F /* CADebugPrintf.cpp in Sources */,
+				5DB1FD85134440E900D4EE9F /* CAFilePathUtils.cpp in Sources */,
+				5DB1FD87134440E900D4EE9F /* CAGuard.cpp in Sources */,
+				5DB1FD91134440E900D4EE9F /* CAHostTimeBase.cpp in Sources */,
+				5DB1FD96134440E900D4EE9F /* CAMutex.cpp in Sources */,
+				5DB1FD98134440E900D4EE9F /* CAPersistence.cpp in Sources */,
+				5DB1FD9C134440E900D4EE9F /* CAPThread.cpp in Sources */,
+				5DB1FD9F134440E900D4EE9F /* CARingBuffer.cpp in Sources */,
+				5DB1FDA1134440E900D4EE9F /* CASettingsStorage.cpp in Sources */,
+				5DB1FDA3134440E900D4EE9F /* CASharedLibrary.cpp in Sources */,
+				5DB1FDA5134440E900D4EE9F /* CASpectralProcessor.cpp in Sources */,
+				5DB1FDA7134440E900D4EE9F /* CAStreamBasicDescription.cpp in Sources */,
+				5DB1FDA9134440E900D4EE9F /* CAStreamRangedDescription.cpp in Sources */,
+				5DB1FDAE134440E900D4EE9F /* CAVectorUnit.cpp in Sources */,
+				5DB1FDB1134440E900D4EE9F /* CAVolumeCurve.cpp in Sources */,
+				5DB1FDB3134440E900D4EE9F /* CAXException.cpp in Sources */,
+				5DB1FDB5134440E900D4EE9F /* MatrixMixerVolumes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7609A460C556A700040AAA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA4AE4D073EB69000A2709A /* CocoaUI */;
+			targetProxy = F7609A450C556A700040AAA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E0BECFF0898391C00E1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = MeatscienceConvolvotron_CocoaViewFactory.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MeatscienceConvolvotron_CocoaViewFactory;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		3E0BED000898391C00E1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = MeatscienceConvolvotron_CocoaViewFactory.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = MeatscienceConvolvotron_CocoaViewFactory;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		3E0BED030898391C00E1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXPORTED_SYMBOLS_FILE = ConvolutionReverb.exp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "-DUSE_CORE_AUDIO";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				PRODUCT_NAME = "Meatscience_Convolution-Reverb";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "Convolver/boost-bcped";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		3E0BED040898391C00E1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXPORTED_SYMBOLS_FILE = ConvolutionReverb.exp;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DUSE_CORE_AUDIO",
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				PRODUCT_NAME = "Meatscience_Convolution-Reverb";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "Convolver/boost-bcped";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+		3E0BED070898391C00E1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = boost_1_39_0/;
+			};
+			name = Debug;
+		};
+		3E0BED080898391C00E1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_VERSION = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNDEBUG";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = boost_1_39_0/;
+			};
+			name = Release;
+		};
+		5D695EB310099F77004BF312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lsndfile",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Convolver;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "Convolver/boost-bcped";
+			};
+			name = Debug;
+		};
+		5D695EB410099F77004BF312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lsndfile",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Convolver;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "Convolver/boost-bcped";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5D8B60411038FC8500C9C090 /* Release assertions enabled */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_VERSION = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = boost_1_39_0/;
+			};
+			name = "Release assertions enabled";
+		};
+		5D8B60421038FC8500C9C090 /* Release assertions enabled */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXPORTED_SYMBOLS_FILE = ConvolutionReverb.exp;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DUSE_CORE_AUDIO",
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Examples/CoreAudio/AudioUnits/AUPublic/AUBase\"";
+				PRODUCT_NAME = "Meatscience_Convolution-Reverb";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "Convolver/boost-bcped";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = "Release assertions enabled";
+		};
+		5D8B60431038FC8500C9C090 /* Release assertions enabled */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = MeatscienceConvolvotron_CocoaViewFactory.plist;
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = MeatscienceConvolvotron_CocoaViewFactory;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = "Release assertions enabled";
+		};
+		5D8B60441038FC8500C9C090 /* Release assertions enabled */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lsndfile",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Convolver;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "Convolver/boost-bcped";
+				ZERO_LINK = NO;
+			};
+			name = "Release assertions enabled";
+		};
+		5D8B60451038FC8500C9C090 /* Release assertions enabled */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lsndfile",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Convolver;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = boost_1_39_0/;
+				ZERO_LINK = NO;
+			};
+			name = "Release assertions enabled";
+		};
+		5DB5089310352AED009DF00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lsndfile",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Convolver;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = boost_1_39_0/;
+			};
+			name = Debug;
+		};
+		5DB5089410352AED009DF00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lsndfile",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Convolver;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = boost_1_39_0/;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E0BECFE0898391C00E1F0F7 /* Build configuration list for PBXNativeTarget "CocoaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0BECFF0898391C00E1F0F7 /* Debug */,
+				3E0BED000898391C00E1F0F7 /* Release */,
+				5D8B60431038FC8500C9C090 /* Release assertions enabled */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E0BED020898391C00E1F0F7 /* Build configuration list for PBXNativeTarget "ConvolutionReverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0BED030898391C00E1F0F7 /* Debug */,
+				3E0BED040898391C00E1F0F7 /* Release */,
+				5D8B60421038FC8500C9C090 /* Release assertions enabled */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E0BED060898391C00E1F0F7 /* Build configuration list for PBXProject "Convolvotron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0BED070898391C00E1F0F7 /* Debug */,
+				3E0BED080898391C00E1F0F7 /* Release */,
+				5D8B60411038FC8500C9C090 /* Release assertions enabled */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D695EB810099F96004BF312 /* Build configuration list for PBXNativeTarget "Convolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D695EB310099F77004BF312 /* Debug */,
+				5D695EB410099F77004BF312 /* Release */,
+				5D8B60441038FC8500C9C090 /* Release assertions enabled */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5DB5089210352AED009DF00F /* Build configuration list for PBXNativeTarget "TestFrameBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB5089310352AED009DF00F /* Debug */,
+				5DB5089410352AED009DF00F /* Release */,
+				5D8B60451038FC8500C9C090 /* Release assertions enabled */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
